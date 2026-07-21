@@ -8,6 +8,6 @@ def create_app():
 
     @app.route("/")
     def home():
-        return render_template("home.html")
+        return render_template("pages/home.html")
     
     return app
