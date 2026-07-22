@@ -13,20 +13,19 @@
 </head>
 
 <body>
-    <header>
-        <h1>New Maulakalika Suppliers</h1>
-    </header>
+
+    {% include "components/navbar.html" %}
+
 
     <main>
         {% block content %}
         {% endblock %}
     </main>
 
-    <footer>
-        <p>
-            &copy 2026 New Maulakalika Suppliers. All rights reserved.
-        </p>
-    </footer>
+    {% include "components/footer.html" %}
+
+
+
 
 </body>
 
