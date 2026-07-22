@@ -2,12 +2,12 @@ from flask import (
     Flask,
     render_template
 )
+from app.routes.main import main
 
 def create_app():
-    app = Flask(__name__)
 
-    @app.route("/")
-    def home():
-        return render_template("pages/home.html")
+    app = Flask(__name__)
     
+    app.register_blueprint(main)
+
     return app
