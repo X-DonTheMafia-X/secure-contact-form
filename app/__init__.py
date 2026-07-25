@@ -11,6 +11,9 @@ from app.config import DevelopmentConfig
 # Import Extentions
 from app.extensions import db
 
+# Import app models for database
+import app.models
+
 def create_app():
 
     # Create app
