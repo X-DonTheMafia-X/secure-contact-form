@@ -14,7 +14,7 @@ class Submission(db.Model):
     #Name
     name = db.Column(
         db.String(100),
-        nullabel=False
+        nullable=False
     )
 
     #Email

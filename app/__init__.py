@@ -6,10 +6,13 @@ from flask import (
 from app.routes.main import main
 
 # Import Config
-from app.config import DevelopmentConfig
+from config import DevelopmentConfig
 
 # Import Extentions
-from app.extensions import db
+from app.extensions import (
+    db,
+    migrate
+)
 
 # Import app models for database
 import app.models
@@ -24,6 +27,7 @@ def create_app():
 
     # Initialize Extentions
     db.init_app(app)
+    migrate.init_app(app, db)
 
     # Register blueprints
     app.register_blueprint(main)
