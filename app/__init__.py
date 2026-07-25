@@ -6,16 +6,25 @@ from flask import (
 from app.routes.main import main
 
 # Import Config
-from config import DevelopmentConfig
+from app.config import DevelopmentConfig
+
+# Import Extentions
+from app.extensions import db
 
 def create_app():
 
+    # Create app
     app = Flask(__name__)
 
-    # Setting app configurations
+    # Load configurations
     app.config.from_object(DevelopmentConfig)
+
+    # Initialize Extentions
+    db.init_app(app)
 
     # Register blueprints
     app.register_blueprint(main)
+
+    
 
     return app
