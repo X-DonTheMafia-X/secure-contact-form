@@ -15,17 +15,23 @@ Home
 
         <p>
             {{ form.name.label }}
-            {{ form.name }}
+            {{ form.name(class="form-input") }}
+            {% set field = form.name %}
+            {% include "components/form_errors.html" %}
         </p>
 
         <p>
             {{ form.email.label }}
-            {{ form.email }}
+            {{ form.email(class="form-input") }}
+            {% set field = form.email %}
+            {% include "components/form_errors.html" %}
         </p>
 
         <p>
             {{ form.message.label }}
-            {{ form.message }}
+            {{ form.message(class="form-input") }}
+            {% set field = form.message %}
+            {% include "components/form_errors.html" %}
         </p>
 
         <p>

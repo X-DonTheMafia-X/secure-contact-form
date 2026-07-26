@@ -35,7 +35,7 @@ def home():
 
         flash(
             "Your message has been sent successfully!",
-            "Success"
+            "success"
         )
 
         return redirect(url_for("main.home"))

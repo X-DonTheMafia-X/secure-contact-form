@@ -6,6 +6,6 @@
 
 .flash-success {
     background: #0561ff;
-    color: var(--primary-color);
+    color: white;
     border: 1px solid #008cef;
 }
