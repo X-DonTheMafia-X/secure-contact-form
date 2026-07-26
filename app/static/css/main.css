@@ -1,5 +1,6 @@
 @import url("base/variable.css");
 @import url("components/navbar.css");
+@import url("components/flash.css");
 
 * {
     margin: 0;

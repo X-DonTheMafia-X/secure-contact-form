@@ -2,11 +2,15 @@ from flask import (
     Blueprint,
     render_template,
     redirect,
-    url_for
+    url_for,
+    flash
 )
 
 # Import forms
 from app.forms.contact_form import ContactForm
+
+# Import Services
+from app.services.submission_service import create_submission
 
 # Import models
 from app.models.submission import Submission
@@ -22,17 +26,17 @@ def home():
     form = ContactForm()
 
     if form.validate_on_submit():
-        submission = Submission(
+
+        create_submission(
             name=form.name.data,
             email=form.email.data,
             message=form.message.data
         )
-        try:
-            db.session.add(submission)
-            db.session.commit()
-        except Exception:
-            db.session.rollback()
-            raise
+
+        flash(
+            "Your message has been sent successfully!",
+            "Success"
+        )
 
         return redirect(url_for("main.home"))
 
