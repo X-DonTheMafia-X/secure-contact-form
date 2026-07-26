@@ -11,7 +11,8 @@ from config import DevelopmentConfig
 # Import Extentions
 from app.extensions import (
     db,
-    migrate
+    migrate,
+    csrf
 )
 
 # Import app models for database
@@ -28,6 +29,7 @@ def create_app():
     # Initialize Extentions
     db.init_app(app)
     migrate.init_app(app, db)
+    csrf.init_app(app)
 
     # Register blueprints
     app.register_blueprint(main)
