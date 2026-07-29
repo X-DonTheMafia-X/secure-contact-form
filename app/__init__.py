@@ -12,7 +12,8 @@ from config import DevelopmentConfig
 from app.extensions import (
     db,
     migrate,
-    csrf
+    csrf,
+    mail,
 )
 
 # Import app models for database
@@ -28,8 +29,10 @@ def create_app():
 
     # Initialize Extentions
     db.init_app(app)
+    mail.init_app(app)
     migrate.init_app(app, db)
     csrf.init_app(app)
+
 
     # Register blueprints
     app.register_blueprint(main)
