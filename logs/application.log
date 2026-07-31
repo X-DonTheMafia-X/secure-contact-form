@@ -1,0 +1,20 @@
+2026-07-31 16:01:31,714 | INFO |werkzeug |[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-07-31 16:01:31,714 | INFO |werkzeug |[33mPress CTRL+C to quit[0m
+2026-07-31 16:01:31,715 | INFO |werkzeug | * Restarting with stat
+2026-07-31 16:01:32,316 | WARNING |werkzeug | * Debugger is active!
+2026-07-31 16:01:32,318 | INFO |werkzeug | * Debugger PIN: 145-784-584
+2026-07-31 16:01:34,708 | INFO |werkzeug |127.0.0.1 - - [31/Jul/2026 16:01:34] "GET / HTTP/1.1" 200 -
+2026-07-31 16:01:34,764 | INFO |werkzeug |127.0.0.1 - - [31/Jul/2026 16:01:34] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2026-07-31 16:01:34,764 | INFO |werkzeug |127.0.0.1 - - [31/Jul/2026 16:01:34] "[36mGET /static/css/components/forms.css HTTP/1.1[0m" 304 -
+2026-07-31 16:01:34,770 | INFO |werkzeug |127.0.0.1 - - [31/Jul/2026 16:01:34] "[36mGET /static/css/base/variable.css HTTP/1.1[0m" 304 -
+2026-07-31 16:01:34,771 | INFO |werkzeug |127.0.0.1 - - [31/Jul/2026 16:01:34] "[36mGET /static/css/components/navbar.css HTTP/1.1[0m" 304 -
+2026-07-31 16:01:34,771 | INFO |werkzeug |127.0.0.1 - - [31/Jul/2026 16:01:34] "[36mGET /static/css/components/flash.css HTTP/1.1[0m" 304 -
+2026-07-31 16:02:52,627 | INFO |New_Maulakalika_Suppliers |Submission created for email=dikshit0parajuli@gmail.com
+2026-07-31 16:02:57,181 | INFO |werkzeug |127.0.0.1 - - [31/Jul/2026 16:02:57] "[32mPOST / HTTP/1.1[0m" 302 -
+2026-07-31 16:02:57,190 | INFO |werkzeug |127.0.0.1 - - [31/Jul/2026 16:02:57] "GET / HTTP/1.1" 200 -
+2026-07-31 16:02:57,208 | INFO |werkzeug |127.0.0.1 - - [31/Jul/2026 16:02:57] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2026-07-31 16:02:57,208 | INFO |werkzeug |127.0.0.1 - - [31/Jul/2026 16:02:57] "[36mGET /static/css/components/forms.css HTTP/1.1[0m" 304 -
+2026-07-31 16:02:57,213 | INFO |werkzeug |127.0.0.1 - - [31/Jul/2026 16:02:57] "[36mGET /static/css/base/variable.css HTTP/1.1[0m" 304 -
+2026-07-31 16:02:57,214 | INFO |werkzeug |127.0.0.1 - - [31/Jul/2026 16:02:57] "[36mGET /static/css/components/navbar.css HTTP/1.1[0m" 304 -
+2026-07-31 16:02:57,214 | INFO |werkzeug |127.0.0.1 - - [31/Jul/2026 16:02:57] "[36mGET /static/css/components/flash.css HTTP/1.1[0m" 304 -
