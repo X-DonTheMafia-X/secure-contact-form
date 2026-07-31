@@ -16,7 +16,7 @@ def send_confirmation_email(submission):
         f"Hello {submission.name},\n\n"
         "Thank you for contacting us.\n\n"
         "We've successfully received your message"
-        "and will respond as soon as possible\n\n"
+        " and will respond as soon as possible.\n\n"
         "Regards,\n"
         "New Maulakalika Supppliers"
     )
@@ -38,8 +38,8 @@ def send_admin_notification(submission):
 
     message.body = (
         f"Name: {submission.name}\n"
-        f"Email: {submission.email}\n"
-        f"Message:\n\n {submission.message}"
+        f"Email: {submission.email}\n\n"
+        f"Message:\n\n{submission.message}"
     )
 
     mail.send(message)
