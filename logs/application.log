@@ -18,3 +18,290 @@
 2026-07-31 16:02:57,213 | INFO |werkzeug |127.0.0.1 - - [31/Jul/2026 16:02:57] "[36mGET /static/css/base/variable.css HTTP/1.1[0m" 304 -
 2026-07-31 16:02:57,214 | INFO |werkzeug |127.0.0.1 - - [31/Jul/2026 16:02:57] "[36mGET /static/css/components/navbar.css HTTP/1.1[0m" 304 -
 2026-07-31 16:02:57,214 | INFO |werkzeug |127.0.0.1 - - [31/Jul/2026 16:02:57] "[36mGET /static/css/components/flash.css HTTP/1.1[0m" 304 -
+2026-07-31 16:49:51,598 | INFO |alembic.runtime.plugins |setup plugin alembic.autogenerate.schemas
+2026-07-31 16:49:51,598 | INFO |alembic.runtime.plugins |setup plugin alembic.autogenerate.tables
+2026-07-31 16:49:51,599 | INFO |alembic.runtime.plugins |setup plugin alembic.autogenerate.types
+2026-07-31 16:49:51,599 | INFO |alembic.runtime.plugins |setup plugin alembic.autogenerate.constraints
+2026-07-31 16:49:51,599 | INFO |alembic.runtime.plugins |setup plugin alembic.autogenerate.defaults
+2026-07-31 16:49:51,599 | INFO |alembic.runtime.plugins |setup plugin alembic.autogenerate.comments
+2026-07-31 16:49:51,676 | INFO |werkzeug |[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-07-31 16:49:51,676 | INFO |werkzeug |[33mPress CTRL+C to quit[0m
+2026-07-31 16:49:51,676 | INFO |werkzeug | * Restarting with stat
+2026-07-31 16:49:52,348 | INFO |alembic.runtime.plugins |setup plugin alembic.autogenerate.schemas
+2026-07-31 16:49:52,349 | INFO |alembic.runtime.plugins |setup plugin alembic.autogenerate.tables
+2026-07-31 16:49:52,349 | INFO |alembic.runtime.plugins |setup plugin alembic.autogenerate.types
+2026-07-31 16:49:52,349 | INFO |alembic.runtime.plugins |setup plugin alembic.autogenerate.constraints
+2026-07-31 16:49:52,349 | INFO |alembic.runtime.plugins |setup plugin alembic.autogenerate.defaults
+2026-07-31 16:49:52,349 | INFO |alembic.runtime.plugins |setup plugin alembic.autogenerate.comments
+2026-07-31 16:49:52,427 | WARNING |werkzeug | * Debugger is active!
+2026-07-31 16:49:52,429 | INFO |werkzeug | * Debugger PIN: 145-784-584
+2026-07-31 16:49:54,493 | INFO |werkzeug |127.0.0.1 - - [31/Jul/2026 16:49:54] "GET / HTTP/1.1" 200 -
+2026-07-31 16:49:54,564 | INFO |werkzeug |127.0.0.1 - - [31/Jul/2026 16:49:54] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2026-07-31 16:49:54,566 | INFO |werkzeug |127.0.0.1 - - [31/Jul/2026 16:49:54] "GET /static/css/pages/errors.css HTTP/1.1" 200 -
+2026-07-31 16:49:54,567 | INFO |werkzeug |127.0.0.1 - - [31/Jul/2026 16:49:54] "[36mGET /static/css/components/forms.css HTTP/1.1[0m" 304 -
+2026-07-31 16:49:54,569 | INFO |werkzeug |127.0.0.1 - - [31/Jul/2026 16:49:54] "[36mGET /static/css/base/variable.css HTTP/1.1[0m" 304 -
+2026-07-31 16:49:54,571 | INFO |werkzeug |127.0.0.1 - - [31/Jul/2026 16:49:54] "[36mGET /static/css/components/navbar.css HTTP/1.1[0m" 304 -
+2026-07-31 16:49:54,571 | INFO |werkzeug |127.0.0.1 - - [31/Jul/2026 16:49:54] "[36mGET /static/css/components/flash.css HTTP/1.1[0m" 304 -
+2026-07-31 16:50:00,039 | WARNING |New_Maulakalika_Suppliers |404 Page Not Found
+2026-07-31 16:50:00,064 | INFO |werkzeug |127.0.0.1 - - [31/Jul/2026 16:50:00] "[35m[1mGET /asasa HTTP/1.1[0m" 500 -
+2026-07-31 16:50:00,081 | INFO |werkzeug |127.0.0.1 - - [31/Jul/2026 16:50:00] "GET /asasa?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2026-07-31 16:50:00,081 | INFO |werkzeug |127.0.0.1 - - [31/Jul/2026 16:50:00] "GET /asasa?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2026-07-31 16:50:00,103 | INFO |werkzeug |127.0.0.1 - - [31/Jul/2026 16:50:00] "GET /asasa?__debugger__=yes&cmd=resource&f=console.png&s=TAOppzdVSzyu21KrnJKV HTTP/1.1" 200 -
+2026-07-31 16:50:00,108 | INFO |werkzeug |127.0.0.1 - - [31/Jul/2026 16:50:00] "GET /asasa?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2026-07-31 16:50:33,560 | WARNING |New_Maulakalika_Suppliers |404 Page Not Found
+2026-07-31 16:50:33,567 | INFO |werkzeug |127.0.0.1 - - [31/Jul/2026 16:50:33] "[35m[1mGET /this-page-does-not-exist HTTP/1.1[0m" 500 -
+2026-07-31 16:50:33,581 | INFO |werkzeug |127.0.0.1 - - [31/Jul/2026 16:50:33] "GET /this-page-does-not-exist?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2026-07-31 16:50:33,582 | INFO |werkzeug |127.0.0.1 - - [31/Jul/2026 16:50:33] "GET /this-page-does-not-exist?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2026-07-31 16:50:33,591 | INFO |werkzeug |127.0.0.1 - - [31/Jul/2026 16:50:33] "GET /this-page-does-not-exist?__debugger__=yes&cmd=resource&f=console.png&s=TAOppzdVSzyu21KrnJKV HTTP/1.1" 200 -
+2026-07-31 16:50:33,597 | INFO |werkzeug |127.0.0.1 - - [31/Jul/2026 16:50:33] "GET /this-page-does-not-exist?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2026-07-31 16:51:32,146 | WARNING |New_Maulakalika_Suppliers |404 Page Not Found
+2026-07-31 16:51:32,156 | INFO |werkzeug |127.0.0.1 - - [31/Jul/2026 16:51:32] "[35m[1mGET /this-page-does-not-exist HTTP/1.1[0m" 500 -
+2026-07-31 16:51:32,171 | INFO |werkzeug |127.0.0.1 - - [31/Jul/2026 16:51:32] "[36mGET /this-page-does-not-exist?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2026-07-31 16:51:32,172 | INFO |werkzeug |127.0.0.1 - - [31/Jul/2026 16:51:32] "[36mGET /this-page-does-not-exist?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2026-07-31 16:51:32,180 | INFO |werkzeug |127.0.0.1 - - [31/Jul/2026 16:51:32] "[36mGET /this-page-does-not-exist?__debugger__=yes&cmd=resource&f=console.png&s=TAOppzdVSzyu21KrnJKV HTTP/1.1[0m" 304 -
+2026-07-31 16:51:32,186 | INFO |werkzeug |127.0.0.1 - - [31/Jul/2026 16:51:32] "[36mGET /this-page-does-not-exist?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2026-07-31 16:51:33,365 | WARNING |New_Maulakalika_Suppliers |404 Page Not Found
+2026-07-31 16:51:33,373 | INFO |werkzeug |127.0.0.1 - - [31/Jul/2026 16:51:33] "[35m[1mGET /this-page-does-not-exist HTTP/1.1[0m" 500 -
+2026-07-31 16:51:33,388 | INFO |werkzeug |127.0.0.1 - - [31/Jul/2026 16:51:33] "[36mGET /this-page-does-not-exist?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2026-07-31 16:51:33,389 | INFO |werkzeug |127.0.0.1 - - [31/Jul/2026 16:51:33] "[36mGET /this-page-does-not-exist?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2026-07-31 16:51:33,397 | INFO |werkzeug |127.0.0.1 - - [31/Jul/2026 16:51:33] "[36mGET /this-page-does-not-exist?__debugger__=yes&cmd=resource&f=console.png&s=TAOppzdVSzyu21KrnJKV HTTP/1.1[0m" 304 -
+2026-07-31 16:51:33,404 | INFO |werkzeug |127.0.0.1 - - [31/Jul/2026 16:51:33] "[36mGET /this-page-does-not-exist?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2026-07-31 16:52:43,034 | WARNING |New_Maulakalika_Suppliers |404 Page Not Found
+2026-07-31 16:52:43,042 | INFO |werkzeug |127.0.0.1 - - [31/Jul/2026 16:52:43] "[35m[1mGET /this-page-does-not-exist HTTP/1.1[0m" 500 -
+2026-07-31 16:52:43,057 | INFO |werkzeug |127.0.0.1 - - [31/Jul/2026 16:52:43] "[36mGET /this-page-does-not-exist?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2026-07-31 16:52:43,057 | INFO |werkzeug |127.0.0.1 - - [31/Jul/2026 16:52:43] "[36mGET /this-page-does-not-exist?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2026-07-31 16:52:43,066 | INFO |werkzeug |127.0.0.1 - - [31/Jul/2026 16:52:43] "[36mGET /this-page-does-not-exist?__debugger__=yes&cmd=resource&f=console.png&s=TAOppzdVSzyu21KrnJKV HTTP/1.1[0m" 304 -
+2026-07-31 16:52:43,072 | INFO |werkzeug |127.0.0.1 - - [31/Jul/2026 16:52:43] "[36mGET /this-page-does-not-exist?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2026-07-31 16:52:43,853 | WARNING |New_Maulakalika_Suppliers |404 Page Not Found
+2026-07-31 16:52:43,860 | INFO |werkzeug |127.0.0.1 - - [31/Jul/2026 16:52:43] "[35m[1mGET /this-page-does-not-exist HTTP/1.1[0m" 500 -
+2026-07-31 16:52:43,874 | INFO |werkzeug |127.0.0.1 - - [31/Jul/2026 16:52:43] "[36mGET /this-page-does-not-exist?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2026-07-31 16:52:43,876 | INFO |werkzeug |127.0.0.1 - - [31/Jul/2026 16:52:43] "[36mGET /this-page-does-not-exist?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2026-07-31 16:52:43,883 | INFO |werkzeug |127.0.0.1 - - [31/Jul/2026 16:52:43] "[36mGET /this-page-does-not-exist?__debugger__=yes&cmd=resource&f=console.png&s=TAOppzdVSzyu21KrnJKV HTTP/1.1[0m" 304 -
+2026-07-31 16:52:43,889 | INFO |werkzeug |127.0.0.1 - - [31/Jul/2026 16:52:43] "[36mGET /this-page-does-not-exist?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2026-07-31 16:52:54,397 | WARNING |New_Maulakalika_Suppliers |404 Page Not Found
+2026-07-31 16:52:54,404 | INFO |werkzeug |127.0.0.1 - - [31/Jul/2026 16:52:54] "[35m[1mGET /this-page-does-not-exist HTTP/1.1[0m" 500 -
+2026-07-31 16:52:54,420 | INFO |werkzeug |127.0.0.1 - - [31/Jul/2026 16:52:54] "[36mGET /this-page-does-not-exist?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2026-07-31 16:52:54,421 | INFO |werkzeug |127.0.0.1 - - [31/Jul/2026 16:52:54] "[36mGET /this-page-does-not-exist?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2026-07-31 16:52:54,428 | INFO |werkzeug |127.0.0.1 - - [31/Jul/2026 16:52:54] "[36mGET /this-page-does-not-exist?__debugger__=yes&cmd=resource&f=console.png&s=TAOppzdVSzyu21KrnJKV HTTP/1.1[0m" 304 -
+2026-07-31 16:52:54,435 | INFO |werkzeug |127.0.0.1 - - [31/Jul/2026 16:52:54] "[36mGET /this-page-does-not-exist?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2026-07-31 16:52:55,349 | WARNING |New_Maulakalika_Suppliers |404 Page Not Found
+2026-07-31 16:52:55,355 | INFO |werkzeug |127.0.0.1 - - [31/Jul/2026 16:52:55] "[35m[1mGET /this-page-does-not-exist HTTP/1.1[0m" 500 -
+2026-07-31 16:52:55,370 | INFO |werkzeug |127.0.0.1 - - [31/Jul/2026 16:52:55] "[36mGET /this-page-does-not-exist?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2026-07-31 16:52:55,370 | INFO |werkzeug |127.0.0.1 - - [31/Jul/2026 16:52:55] "[36mGET /this-page-does-not-exist?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2026-07-31 16:52:55,378 | INFO |werkzeug |127.0.0.1 - - [31/Jul/2026 16:52:55] "[36mGET /this-page-does-not-exist?__debugger__=yes&cmd=resource&f=console.png&s=TAOppzdVSzyu21KrnJKV HTTP/1.1[0m" 304 -
+2026-07-31 16:52:55,384 | INFO |werkzeug |127.0.0.1 - - [31/Jul/2026 16:52:55] "[36mGET /this-page-does-not-exist?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2026-07-31 16:56:08,428 | INFO |werkzeug |127.0.0.1 - - [31/Jul/2026 16:56:08] "GET / HTTP/1.1" 200 -
+2026-07-31 16:56:08,446 | INFO |werkzeug |127.0.0.1 - - [31/Jul/2026 16:56:08] "[36mGET /static/css/components/forms.css HTTP/1.1[0m" 304 -
+2026-07-31 16:56:08,447 | INFO |werkzeug |127.0.0.1 - - [31/Jul/2026 16:56:08] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2026-07-31 16:56:08,447 | INFO |werkzeug |127.0.0.1 - - [31/Jul/2026 16:56:08] "[36mGET /static/css/pages/errors.css HTTP/1.1[0m" 304 -
+2026-07-31 16:56:08,452 | INFO |werkzeug |127.0.0.1 - - [31/Jul/2026 16:56:08] "[36mGET /static/css/base/variable.css HTTP/1.1[0m" 304 -
+2026-07-31 16:56:08,453 | INFO |werkzeug |127.0.0.1 - - [31/Jul/2026 16:56:08] "[36mGET /static/css/components/flash.css HTTP/1.1[0m" 304 -
+2026-07-31 16:56:08,453 | INFO |werkzeug |127.0.0.1 - - [31/Jul/2026 16:56:08] "[36mGET /static/css/components/navbar.css HTTP/1.1[0m" 304 -
+2026-07-31 16:58:48,220 | WARNING |New_Maulakalika_Suppliers |404 Page Not Found
+2026-07-31 16:58:48,227 | INFO |werkzeug |127.0.0.1 - - [31/Jul/2026 16:58:48] "[35m[1mGET /this-page-is-not-found HTTP/1.1[0m" 500 -
+2026-07-31 16:58:48,242 | INFO |werkzeug |127.0.0.1 - - [31/Jul/2026 16:58:48] "GET /this-page-is-not-found?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2026-07-31 16:58:48,242 | INFO |werkzeug |127.0.0.1 - - [31/Jul/2026 16:58:48] "GET /this-page-is-not-found?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2026-07-31 16:58:48,251 | INFO |werkzeug |127.0.0.1 - - [31/Jul/2026 16:58:48] "GET /this-page-is-not-found?__debugger__=yes&cmd=resource&f=console.png&s=TAOppzdVSzyu21KrnJKV HTTP/1.1" 200 -
+2026-07-31 16:58:48,256 | INFO |werkzeug |127.0.0.1 - - [31/Jul/2026 16:58:48] "GET /this-page-is-not-found?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2026-07-31 17:01:20,795 | WARNING |New_Maulakalika_Suppliers |404 Page Not Found
+2026-07-31 17:01:20,801 | INFO |werkzeug |127.0.0.1 - - [31/Jul/2026 17:01:20] "[35m[1mGET /this-page-is-not-found HTTP/1.1[0m" 500 -
+2026-07-31 17:01:20,816 | INFO |werkzeug |127.0.0.1 - - [31/Jul/2026 17:01:20] "[36mGET /this-page-is-not-found?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2026-07-31 17:01:20,816 | INFO |werkzeug |127.0.0.1 - - [31/Jul/2026 17:01:20] "[36mGET /this-page-is-not-found?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2026-07-31 17:01:20,823 | INFO |werkzeug |127.0.0.1 - - [31/Jul/2026 17:01:20] "[36mGET /this-page-is-not-found?__debugger__=yes&cmd=resource&f=console.png&s=TAOppzdVSzyu21KrnJKV HTTP/1.1[0m" 304 -
+2026-07-31 17:01:20,829 | INFO |werkzeug |127.0.0.1 - - [31/Jul/2026 17:01:20] "[36mGET /this-page-is-not-found?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2026-07-31 17:01:24,696 | WARNING |New_Maulakalika_Suppliers |404 Page Not Found
+2026-07-31 17:01:24,704 | INFO |werkzeug |127.0.0.1 - - [31/Jul/2026 17:01:24] "[35m[1mGET /this-page-is-not-found HTTP/1.1[0m" 500 -
+2026-07-31 17:01:24,721 | INFO |werkzeug |127.0.0.1 - - [31/Jul/2026 17:01:24] "[36mGET /this-page-is-not-found?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2026-07-31 17:01:24,722 | INFO |werkzeug |127.0.0.1 - - [31/Jul/2026 17:01:24] "[36mGET /this-page-is-not-found?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2026-07-31 17:01:24,730 | INFO |werkzeug |127.0.0.1 - - [31/Jul/2026 17:01:24] "[36mGET /this-page-is-not-found?__debugger__=yes&cmd=resource&f=console.png&s=TAOppzdVSzyu21KrnJKV HTTP/1.1[0m" 304 -
+2026-07-31 17:01:34,998 | WARNING |New_Maulakalika_Suppliers |404 Page Not Found
+2026-07-31 17:01:35,007 | INFO |werkzeug |127.0.0.1 - - [31/Jul/2026 17:01:35] "[35m[1mGET /this-page-is-not-found HTTP/1.1[0m" 500 -
+2026-07-31 17:01:35,023 | INFO |werkzeug |127.0.0.1 - - [31/Jul/2026 17:01:35] "[36mGET /this-page-is-not-found?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2026-07-31 17:01:35,024 | INFO |werkzeug |127.0.0.1 - - [31/Jul/2026 17:01:35] "[36mGET /this-page-is-not-found?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2026-07-31 17:01:35,031 | INFO |werkzeug |127.0.0.1 - - [31/Jul/2026 17:01:35] "[36mGET /this-page-is-not-found?__debugger__=yes&cmd=resource&f=console.png&s=TAOppzdVSzyu21KrnJKV HTTP/1.1[0m" 304 -
+2026-07-31 17:01:35,036 | INFO |werkzeug |127.0.0.1 - - [31/Jul/2026 17:01:35] "[36mGET /this-page-is-not-found?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2026-07-31 17:02:35,819 | WARNING |New_Maulakalika_Suppliers |404 Page Not Found
+2026-07-31 17:02:35,826 | INFO |werkzeug |127.0.0.1 - - [31/Jul/2026 17:02:35] "[35m[1mGET /this-page-is-not-found HTTP/1.1[0m" 500 -
+2026-07-31 17:02:35,842 | INFO |werkzeug |127.0.0.1 - - [31/Jul/2026 17:02:35] "[36mGET /this-page-is-not-found?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2026-07-31 17:02:35,842 | INFO |werkzeug |127.0.0.1 - - [31/Jul/2026 17:02:35] "[36mGET /this-page-is-not-found?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2026-07-31 17:02:35,851 | INFO |werkzeug |127.0.0.1 - - [31/Jul/2026 17:02:35] "[36mGET /this-page-is-not-found?__debugger__=yes&cmd=resource&f=console.png&s=TAOppzdVSzyu21KrnJKV HTTP/1.1[0m" 304 -
+2026-07-31 17:02:35,857 | INFO |werkzeug |127.0.0.1 - - [31/Jul/2026 17:02:35] "[36mGET /this-page-is-not-found?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2026-07-31 17:02:38,581 | WARNING |New_Maulakalika_Suppliers |404 Page Not Found
+2026-07-31 17:02:38,590 | INFO |werkzeug |127.0.0.1 - - [31/Jul/2026 17:02:38] "[35m[1mGET /this-page-is-not-found HTTP/1.1[0m" 500 -
+2026-07-31 17:02:38,606 | INFO |werkzeug |127.0.0.1 - - [31/Jul/2026 17:02:38] "[36mGET /this-page-is-not-found?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2026-07-31 17:02:38,607 | INFO |werkzeug |127.0.0.1 - - [31/Jul/2026 17:02:38] "[36mGET /this-page-is-not-found?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2026-07-31 17:02:38,615 | INFO |werkzeug |127.0.0.1 - - [31/Jul/2026 17:02:38] "[36mGET /this-page-is-not-found?__debugger__=yes&cmd=resource&f=console.png&s=TAOppzdVSzyu21KrnJKV HTTP/1.1[0m" 304 -
+2026-07-31 17:02:38,620 | INFO |werkzeug |127.0.0.1 - - [31/Jul/2026 17:02:38] "[36mGET /this-page-is-not-found?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2026-07-31 17:02:45,114 | WARNING |New_Maulakalika_Suppliers |404 Page Not Found
+2026-07-31 17:02:45,115 | INFO |werkzeug |127.0.0.1 - - [31/Jul/2026 17:02:45] "[33mGET /this-page-is-not-found HTTP/1.1[0m" 404 -
+2026-07-31 17:02:45,133 | INFO |werkzeug |127.0.0.1 - - [31/Jul/2026 17:02:45] "[36mGET /static/css/components/forms.css HTTP/1.1[0m" 304 -
+2026-07-31 17:02:45,133 | INFO |werkzeug |127.0.0.1 - - [31/Jul/2026 17:02:45] "[36mGET /static/css/pages/errors.css HTTP/1.1[0m" 304 -
+2026-07-31 17:02:45,133 | INFO |werkzeug |127.0.0.1 - - [31/Jul/2026 17:02:45] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2026-07-31 17:02:45,138 | INFO |werkzeug |127.0.0.1 - - [31/Jul/2026 17:02:45] "[36mGET /static/css/base/variable.css HTTP/1.1[0m" 304 -
+2026-07-31 17:02:45,138 | INFO |werkzeug |127.0.0.1 - - [31/Jul/2026 17:02:45] "[36mGET /static/css/components/navbar.css HTTP/1.1[0m" 304 -
+2026-07-31 17:02:45,138 | INFO |werkzeug |127.0.0.1 - - [31/Jul/2026 17:02:45] "[36mGET /static/css/components/flash.css HTTP/1.1[0m" 304 -
+2026-07-31 17:02:55,786 | INFO |werkzeug |127.0.0.1 - - [31/Jul/2026 17:02:55] "GET / HTTP/1.1" 200 -
+2026-07-31 17:02:55,802 | INFO |werkzeug |127.0.0.1 - - [31/Jul/2026 17:02:55] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2026-07-31 17:02:55,804 | INFO |werkzeug |127.0.0.1 - - [31/Jul/2026 17:02:55] "[36mGET /static/css/components/forms.css HTTP/1.1[0m" 304 -
+2026-07-31 17:02:55,805 | INFO |werkzeug |127.0.0.1 - - [31/Jul/2026 17:02:55] "[36mGET /static/css/pages/errors.css HTTP/1.1[0m" 304 -
+2026-07-31 17:02:55,807 | INFO |werkzeug |127.0.0.1 - - [31/Jul/2026 17:02:55] "[36mGET /static/css/components/navbar.css HTTP/1.1[0m" 304 -
+2026-07-31 17:02:55,808 | INFO |werkzeug |127.0.0.1 - - [31/Jul/2026 17:02:55] "[36mGET /static/css/base/variable.css HTTP/1.1[0m" 304 -
+2026-07-31 17:02:55,809 | INFO |werkzeug |127.0.0.1 - - [31/Jul/2026 17:02:55] "[36mGET /static/css/components/flash.css HTTP/1.1[0m" 304 -
+2026-07-31 17:02:59,721 | INFO |werkzeug |127.0.0.1 - - [31/Jul/2026 17:02:59] "GET / HTTP/1.1" 200 -
+2026-07-31 17:02:59,738 | INFO |werkzeug |127.0.0.1 - - [31/Jul/2026 17:02:59] "[36mGET /static/css/components/forms.css HTTP/1.1[0m" 304 -
+2026-07-31 17:02:59,738 | INFO |werkzeug |127.0.0.1 - - [31/Jul/2026 17:02:59] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2026-07-31 17:02:59,738 | INFO |werkzeug |127.0.0.1 - - [31/Jul/2026 17:02:59] "[36mGET /static/css/pages/errors.css HTTP/1.1[0m" 304 -
+2026-07-31 17:02:59,742 | INFO |werkzeug |127.0.0.1 - - [31/Jul/2026 17:02:59] "[36mGET /static/css/components/navbar.css HTTP/1.1[0m" 304 -
+2026-07-31 17:02:59,742 | INFO |werkzeug |127.0.0.1 - - [31/Jul/2026 17:02:59] "[36mGET /static/css/base/variable.css HTTP/1.1[0m" 304 -
+2026-07-31 17:02:59,743 | INFO |werkzeug |127.0.0.1 - - [31/Jul/2026 17:02:59] "[36mGET /static/css/components/flash.css HTTP/1.1[0m" 304 -
+2026-07-31 17:03:10,227 | WARNING |New_Maulakalika_Suppliers |404 Page Not Found
+2026-07-31 17:03:10,228 | INFO |werkzeug |127.0.0.1 - - [31/Jul/2026 17:03:10] "[33mGET /admin HTTP/1.1[0m" 404 -
+2026-07-31 17:03:10,247 | INFO |werkzeug |127.0.0.1 - - [31/Jul/2026 17:03:10] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2026-07-31 17:03:10,249 | INFO |werkzeug |127.0.0.1 - - [31/Jul/2026 17:03:10] "[36mGET /static/css/components/forms.css HTTP/1.1[0m" 304 -
+2026-07-31 17:03:10,249 | INFO |werkzeug |127.0.0.1 - - [31/Jul/2026 17:03:10] "[36mGET /static/css/pages/errors.css HTTP/1.1[0m" 304 -
+2026-07-31 17:03:10,254 | INFO |werkzeug |127.0.0.1 - - [31/Jul/2026 17:03:10] "[36mGET /static/css/base/variable.css HTTP/1.1[0m" 304 -
+2026-07-31 17:03:10,254 | INFO |werkzeug |127.0.0.1 - - [31/Jul/2026 17:03:10] "[36mGET /static/css/components/navbar.css HTTP/1.1[0m" 304 -
+2026-07-31 17:03:10,254 | INFO |werkzeug |127.0.0.1 - - [31/Jul/2026 17:03:10] "[36mGET /static/css/components/flash.css HTTP/1.1[0m" 304 -
+2026-07-31 17:03:15,718 | INFO |werkzeug |127.0.0.1 - - [31/Jul/2026 17:03:15] "GET / HTTP/1.1" 200 -
+2026-07-31 17:03:15,736 | INFO |werkzeug |127.0.0.1 - - [31/Jul/2026 17:03:15] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2026-07-31 17:03:15,737 | INFO |werkzeug |127.0.0.1 - - [31/Jul/2026 17:03:15] "[36mGET /static/css/components/forms.css HTTP/1.1[0m" 304 -
+2026-07-31 17:03:15,737 | INFO |werkzeug |127.0.0.1 - - [31/Jul/2026 17:03:15] "[36mGET /static/css/pages/errors.css HTTP/1.1[0m" 304 -
+2026-07-31 17:03:15,740 | INFO |werkzeug |127.0.0.1 - - [31/Jul/2026 17:03:15] "[36mGET /static/css/base/variable.css HTTP/1.1[0m" 304 -
+2026-07-31 17:03:15,741 | INFO |werkzeug |127.0.0.1 - - [31/Jul/2026 17:03:15] "[36mGET /static/css/components/navbar.css HTTP/1.1[0m" 304 -
+2026-07-31 17:03:15,742 | INFO |werkzeug |127.0.0.1 - - [31/Jul/2026 17:03:15] "[36mGET /static/css/components/flash.css HTTP/1.1[0m" 304 -
+2026-07-31 17:05:08,829 | INFO |alembic.runtime.plugins |setup plugin alembic.autogenerate.schemas
+2026-07-31 17:05:08,829 | INFO |alembic.runtime.plugins |setup plugin alembic.autogenerate.tables
+2026-07-31 17:05:08,829 | INFO |alembic.runtime.plugins |setup plugin alembic.autogenerate.types
+2026-07-31 17:05:08,829 | INFO |alembic.runtime.plugins |setup plugin alembic.autogenerate.constraints
+2026-07-31 17:05:08,830 | INFO |alembic.runtime.plugins |setup plugin alembic.autogenerate.defaults
+2026-07-31 17:05:08,830 | INFO |alembic.runtime.plugins |setup plugin alembic.autogenerate.comments
+2026-07-31 17:05:08,896 | INFO |werkzeug |[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-07-31 17:05:08,896 | INFO |werkzeug |[33mPress CTRL+C to quit[0m
+2026-07-31 17:05:08,897 | INFO |werkzeug | * Restarting with stat
+2026-07-31 17:05:09,448 | INFO |alembic.runtime.plugins |setup plugin alembic.autogenerate.schemas
+2026-07-31 17:05:09,448 | INFO |alembic.runtime.plugins |setup plugin alembic.autogenerate.tables
+2026-07-31 17:05:09,448 | INFO |alembic.runtime.plugins |setup plugin alembic.autogenerate.types
+2026-07-31 17:05:09,449 | INFO |alembic.runtime.plugins |setup plugin alembic.autogenerate.constraints
+2026-07-31 17:05:09,449 | INFO |alembic.runtime.plugins |setup plugin alembic.autogenerate.defaults
+2026-07-31 17:05:09,449 | INFO |alembic.runtime.plugins |setup plugin alembic.autogenerate.comments
+2026-07-31 17:05:09,507 | WARNING |werkzeug | * Debugger is active!
+2026-07-31 17:05:09,509 | INFO |werkzeug | * Debugger PIN: 145-784-584
+2026-07-31 17:05:21,485 | INFO |werkzeug |127.0.0.1 - - [31/Jul/2026 17:05:21] "[35m[1mGET /test-error HTTP/1.1[0m" 500 -
+2026-07-31 17:05:21,650 | INFO |werkzeug |127.0.0.1 - - [31/Jul/2026 17:05:21] "GET /test-error?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2026-07-31 17:05:21,650 | INFO |werkzeug |127.0.0.1 - - [31/Jul/2026 17:05:21] "GET /test-error?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2026-07-31 17:05:21,658 | INFO |werkzeug |127.0.0.1 - - [31/Jul/2026 17:05:21] "GET /test-error?__debugger__=yes&cmd=resource&f=console.png&s=qowbtzyNDhD040byr8A5 HTTP/1.1" 200 -
+2026-07-31 17:05:21,663 | INFO |werkzeug |127.0.0.1 - - [31/Jul/2026 17:05:21] "GET /test-error?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2026-07-31 17:07:39,107 | INFO |werkzeug | * Detected change in 'C:\\Users\\diksh\\documents\\contact-form\\app\\routes\\main.py', reloading
+2026-07-31 17:07:39,236 | INFO |werkzeug | * Restarting with stat
+2026-07-31 17:07:39,804 | INFO |alembic.runtime.plugins |setup plugin alembic.autogenerate.schemas
+2026-07-31 17:07:39,804 | INFO |alembic.runtime.plugins |setup plugin alembic.autogenerate.tables
+2026-07-31 17:07:39,805 | INFO |alembic.runtime.plugins |setup plugin alembic.autogenerate.types
+2026-07-31 17:07:39,805 | INFO |alembic.runtime.plugins |setup plugin alembic.autogenerate.constraints
+2026-07-31 17:07:39,805 | INFO |alembic.runtime.plugins |setup plugin alembic.autogenerate.defaults
+2026-07-31 17:07:39,805 | INFO |alembic.runtime.plugins |setup plugin alembic.autogenerate.comments
+2026-07-31 17:07:39,865 | WARNING |werkzeug | * Debugger is active!
+2026-07-31 17:07:39,867 | INFO |werkzeug | * Debugger PIN: 145-784-584
+2026-07-31 17:08:55,626 | INFO |alembic.runtime.plugins |setup plugin alembic.autogenerate.schemas
+2026-07-31 17:08:55,627 | INFO |alembic.runtime.plugins |setup plugin alembic.autogenerate.tables
+2026-07-31 17:08:55,627 | INFO |alembic.runtime.plugins |setup plugin alembic.autogenerate.types
+2026-07-31 17:08:55,627 | INFO |alembic.runtime.plugins |setup plugin alembic.autogenerate.constraints
+2026-07-31 17:08:55,627 | INFO |alembic.runtime.plugins |setup plugin alembic.autogenerate.defaults
+2026-07-31 17:08:55,627 | INFO |alembic.runtime.plugins |setup plugin alembic.autogenerate.comments
+2026-07-31 17:08:55,697 | INFO |werkzeug |[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-07-31 17:08:55,697 | INFO |werkzeug |[33mPress CTRL+C to quit[0m
+2026-07-31 17:08:55,698 | INFO |werkzeug | * Restarting with stat
+2026-07-31 17:08:56,239 | INFO |alembic.runtime.plugins |setup plugin alembic.autogenerate.schemas
+2026-07-31 17:08:56,240 | INFO |alembic.runtime.plugins |setup plugin alembic.autogenerate.tables
+2026-07-31 17:08:56,240 | INFO |alembic.runtime.plugins |setup plugin alembic.autogenerate.types
+2026-07-31 17:08:56,240 | INFO |alembic.runtime.plugins |setup plugin alembic.autogenerate.constraints
+2026-07-31 17:08:56,240 | INFO |alembic.runtime.plugins |setup plugin alembic.autogenerate.defaults
+2026-07-31 17:08:56,240 | INFO |alembic.runtime.plugins |setup plugin alembic.autogenerate.comments
+2026-07-31 17:08:56,299 | WARNING |werkzeug | * Debugger is active!
+2026-07-31 17:08:56,301 | INFO |werkzeug | * Debugger PIN: 145-784-584
+2026-07-31 17:08:59,331 | INFO |werkzeug |127.0.0.1 - - [31/Jul/2026 17:08:59] "[35m[1mGET /test-error HTTP/1.1[0m" 500 -
+2026-07-31 17:08:59,387 | INFO |werkzeug |127.0.0.1 - - [31/Jul/2026 17:08:59] "[36mGET /test-error?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2026-07-31 17:08:59,388 | INFO |werkzeug |127.0.0.1 - - [31/Jul/2026 17:08:59] "[36mGET /test-error?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2026-07-31 17:08:59,395 | INFO |werkzeug |127.0.0.1 - - [31/Jul/2026 17:08:59] "GET /test-error?__debugger__=yes&cmd=resource&f=console.png&s=IZCMHZlB8WzuGRJFFnuF HTTP/1.1" 200 -
+2026-07-31 17:08:59,400 | INFO |werkzeug |127.0.0.1 - - [31/Jul/2026 17:08:59] "[36mGET /test-error?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2026-07-31 17:09:00,327 | INFO |werkzeug |127.0.0.1 - - [31/Jul/2026 17:09:00] "[35m[1mGET /test-error HTTP/1.1[0m" 500 -
+2026-07-31 17:09:00,341 | INFO |werkzeug |127.0.0.1 - - [31/Jul/2026 17:09:00] "[36mGET /test-error?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2026-07-31 17:09:00,341 | INFO |werkzeug |127.0.0.1 - - [31/Jul/2026 17:09:00] "[36mGET /test-error?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2026-07-31 17:09:00,347 | INFO |werkzeug |127.0.0.1 - - [31/Jul/2026 17:09:00] "[36mGET /test-error?__debugger__=yes&cmd=resource&f=console.png&s=IZCMHZlB8WzuGRJFFnuF HTTP/1.1[0m" 304 -
+2026-07-31 17:09:00,352 | INFO |werkzeug |127.0.0.1 - - [31/Jul/2026 17:09:00] "[36mGET /test-error?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2026-07-31 17:09:41,479 | INFO |werkzeug | * Detected change in 'C:\\Users\\diksh\\documents\\contact-form\\run.py', reloading
+2026-07-31 17:09:41,597 | INFO |werkzeug | * Restarting with stat
+2026-07-31 17:09:42,191 | INFO |alembic.runtime.plugins |setup plugin alembic.autogenerate.schemas
+2026-07-31 17:09:42,191 | INFO |alembic.runtime.plugins |setup plugin alembic.autogenerate.tables
+2026-07-31 17:09:42,192 | INFO |alembic.runtime.plugins |setup plugin alembic.autogenerate.types
+2026-07-31 17:09:42,192 | INFO |alembic.runtime.plugins |setup plugin alembic.autogenerate.constraints
+2026-07-31 17:09:42,192 | INFO |alembic.runtime.plugins |setup plugin alembic.autogenerate.defaults
+2026-07-31 17:09:42,192 | INFO |alembic.runtime.plugins |setup plugin alembic.autogenerate.comments
+2026-07-31 17:09:48,233 | INFO |alembic.runtime.plugins |setup plugin alembic.autogenerate.schemas
+2026-07-31 17:09:48,233 | INFO |alembic.runtime.plugins |setup plugin alembic.autogenerate.tables
+2026-07-31 17:09:48,233 | INFO |alembic.runtime.plugins |setup plugin alembic.autogenerate.types
+2026-07-31 17:09:48,233 | INFO |alembic.runtime.plugins |setup plugin alembic.autogenerate.constraints
+2026-07-31 17:09:48,233 | INFO |alembic.runtime.plugins |setup plugin alembic.autogenerate.defaults
+2026-07-31 17:09:48,234 | INFO |alembic.runtime.plugins |setup plugin alembic.autogenerate.comments
+2026-07-31 17:09:48,293 | INFO |werkzeug |[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-07-31 17:09:48,293 | INFO |werkzeug |[33mPress CTRL+C to quit[0m
+2026-07-31 17:10:01,788 | ERROR |app |Exception on /test-error [GET]
+Traceback (most recent call last):
+  File "C:\Users\diksh\documents\contact-form\.venv\Lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\diksh\documents\contact-form\.venv\Lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\diksh\documents\contact-form\.venv\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\diksh\documents\contact-form\.venv\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\diksh\documents\contact-form\app\routes\main.py", line 50, in test_error
+    raise RuntimeError("Testing the 500 error handler")
+RuntimeError: Testing the 500 error handler
+2026-07-31 17:10:01,790 | ERROR |New_Maulakalika_Suppliers |Unhandled application exception
+Traceback (most recent call last):
+  File "C:\Users\diksh\documents\contact-form\.venv\Lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\diksh\documents\contact-form\.venv\Lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\diksh\documents\contact-form\.venv\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\diksh\documents\contact-form\.venv\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\diksh\documents\contact-form\app\routes\main.py", line 50, in test_error
+    raise RuntimeError("Testing the 500 error handler")
+RuntimeError: Testing the 500 error handler
+2026-07-31 17:10:01,796 | INFO |werkzeug |127.0.0.1 - - [31/Jul/2026 17:10:01] "[35m[1mGET /test-error HTTP/1.1[0m" 500 -
+2026-07-31 17:10:01,873 | INFO |werkzeug |127.0.0.1 - - [31/Jul/2026 17:10:01] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2026-07-31 17:10:01,875 | INFO |werkzeug |127.0.0.1 - - [31/Jul/2026 17:10:01] "[36mGET /static/css/pages/errors.css HTTP/1.1[0m" 304 -
+2026-07-31 17:10:01,876 | INFO |werkzeug |127.0.0.1 - - [31/Jul/2026 17:10:01] "[36mGET /static/css/components/forms.css HTTP/1.1[0m" 304 -
+2026-07-31 17:10:01,879 | INFO |werkzeug |127.0.0.1 - - [31/Jul/2026 17:10:01] "[36mGET /static/css/base/variable.css HTTP/1.1[0m" 304 -
+2026-07-31 17:10:01,879 | INFO |werkzeug |127.0.0.1 - - [31/Jul/2026 17:10:01] "[36mGET /static/css/components/navbar.css HTTP/1.1[0m" 304 -
+2026-07-31 17:10:01,880 | INFO |werkzeug |127.0.0.1 - - [31/Jul/2026 17:10:01] "[36mGET /static/css/components/flash.css HTTP/1.1[0m" 304 -
+2026-07-31 17:10:09,433 | INFO |werkzeug |127.0.0.1 - - [31/Jul/2026 17:10:09] "GET / HTTP/1.1" 200 -
+2026-07-31 17:10:09,451 | INFO |werkzeug |127.0.0.1 - - [31/Jul/2026 17:10:09] "[36mGET /static/css/components/forms.css HTTP/1.1[0m" 304 -
+2026-07-31 17:10:09,452 | INFO |werkzeug |127.0.0.1 - - [31/Jul/2026 17:10:09] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2026-07-31 17:10:09,452 | INFO |werkzeug |127.0.0.1 - - [31/Jul/2026 17:10:09] "[36mGET /static/css/pages/errors.css HTTP/1.1[0m" 304 -
+2026-07-31 17:10:09,457 | INFO |werkzeug |127.0.0.1 - - [31/Jul/2026 17:10:09] "[36mGET /static/css/base/variable.css HTTP/1.1[0m" 304 -
+2026-07-31 17:10:09,457 | INFO |werkzeug |127.0.0.1 - - [31/Jul/2026 17:10:09] "[36mGET /static/css/components/navbar.css HTTP/1.1[0m" 304 -
+2026-07-31 17:10:09,457 | INFO |werkzeug |127.0.0.1 - - [31/Jul/2026 17:10:09] "[36mGET /static/css/components/flash.css HTTP/1.1[0m" 304 -
+2026-07-31 17:10:19,640 | WARNING |New_Maulakalika_Suppliers |404 Page Not Found
+2026-07-31 17:10:19,642 | INFO |werkzeug |127.0.0.1 - - [31/Jul/2026 17:10:19] "[33mGET /sas HTTP/1.1[0m" 404 -
+2026-07-31 17:10:19,658 | INFO |werkzeug |127.0.0.1 - - [31/Jul/2026 17:10:19] "[36mGET /static/css/components/forms.css HTTP/1.1[0m" 304 -
+2026-07-31 17:10:19,659 | INFO |werkzeug |127.0.0.1 - - [31/Jul/2026 17:10:19] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2026-07-31 17:10:19,661 | INFO |werkzeug |127.0.0.1 - - [31/Jul/2026 17:10:19] "[36mGET /static/css/pages/errors.css HTTP/1.1[0m" 304 -
+2026-07-31 17:10:19,664 | INFO |werkzeug |127.0.0.1 - - [31/Jul/2026 17:10:19] "[36mGET /static/css/base/variable.css HTTP/1.1[0m" 304 -
+2026-07-31 17:10:19,664 | INFO |werkzeug |127.0.0.1 - - [31/Jul/2026 17:10:19] "[36mGET /static/css/components/navbar.css HTTP/1.1[0m" 304 -
+2026-07-31 17:10:19,665 | INFO |werkzeug |127.0.0.1 - - [31/Jul/2026 17:10:19] "[36mGET /static/css/components/flash.css HTTP/1.1[0m" 304 -
+2026-07-31 17:10:21,285 | INFO |werkzeug |127.0.0.1 - - [31/Jul/2026 17:10:21] "GET / HTTP/1.1" 200 -
+2026-07-31 17:10:21,303 | INFO |werkzeug |127.0.0.1 - - [31/Jul/2026 17:10:21] "[36mGET /static/css/components/forms.css HTTP/1.1[0m" 304 -
+2026-07-31 17:10:21,303 | INFO |werkzeug |127.0.0.1 - - [31/Jul/2026 17:10:21] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2026-07-31 17:10:21,304 | INFO |werkzeug |127.0.0.1 - - [31/Jul/2026 17:10:21] "[36mGET /static/css/pages/errors.css HTTP/1.1[0m" 304 -
+2026-07-31 17:10:21,308 | INFO |werkzeug |127.0.0.1 - - [31/Jul/2026 17:10:21] "[36mGET /static/css/components/navbar.css HTTP/1.1[0m" 304 -
+2026-07-31 17:10:21,309 | INFO |werkzeug |127.0.0.1 - - [31/Jul/2026 17:10:21] "[36mGET /static/css/base/variable.css HTTP/1.1[0m" 304 -
+2026-07-31 17:10:21,309 | INFO |werkzeug |127.0.0.1 - - [31/Jul/2026 17:10:21] "[36mGET /static/css/components/flash.css HTTP/1.1[0m" 304 -

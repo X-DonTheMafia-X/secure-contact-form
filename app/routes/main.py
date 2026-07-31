@@ -44,3 +44,7 @@ def home():
         "pages/home.html",
         form=form
         )
+# Tesing 500 code error page
+# @main.route("/test-error")
+# def test_error():
+#     raise RuntimeError("Testing the 500 error handler")

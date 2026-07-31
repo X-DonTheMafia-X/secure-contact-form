@@ -1,12 +1,20 @@
 from flask import (
     Flask,
     render_template
-)
+    )
+
+# Import Logging Config
+import app.logging_config
+
 # Import Routes
 from app.routes.main import main
 
+# Import Error Handler
+from app.errors import register_error_handlers
+
 # Import Config
 from config import DevelopmentConfig
+
 
 # Import Extentions
 from app.extensions import (
@@ -27,6 +35,7 @@ def create_app():
     # Load configurations
     app.config.from_object(DevelopmentConfig)
 
+
     # Initialize Extentions
     db.init_app(app)
     mail.init_app(app)
@@ -36,6 +45,9 @@ def create_app():
 
     # Register blueprints
     app.register_blueprint(main)
+
+    # Register error handler blueprints
+    register_error_handlers(app)
 
     
 
