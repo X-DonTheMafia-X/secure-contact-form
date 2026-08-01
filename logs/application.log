@@ -329,3 +329,81 @@ RuntimeError: Testing the 500 error handler
 2026-07-31 23:48:29,452 | INFO |alembic.runtime.plugins |setup plugin alembic.autogenerate.constraints
 2026-07-31 23:48:29,452 | INFO |alembic.runtime.plugins |setup plugin alembic.autogenerate.defaults
 2026-07-31 23:48:29,452 | INFO |alembic.runtime.plugins |setup plugin alembic.autogenerate.comments
+2026-08-01 14:23:16,042 | INFO |alembic.runtime.plugins |setup plugin alembic.autogenerate.schemas
+2026-08-01 14:23:16,044 | INFO |alembic.runtime.plugins |setup plugin alembic.autogenerate.tables
+2026-08-01 14:23:16,044 | INFO |alembic.runtime.plugins |setup plugin alembic.autogenerate.types
+2026-08-01 14:23:16,044 | INFO |alembic.runtime.plugins |setup plugin alembic.autogenerate.constraints
+2026-08-01 14:23:16,044 | INFO |alembic.runtime.plugins |setup plugin alembic.autogenerate.defaults
+2026-08-01 14:23:16,045 | INFO |alembic.runtime.plugins |setup plugin alembic.autogenerate.comments
+2026-08-01 14:23:16,223 | INFO |werkzeug |[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-08-01 14:23:16,223 | INFO |werkzeug |[33mPress CTRL+C to quit[0m
+2026-08-01 14:23:16,225 | INFO |werkzeug | * Restarting with stat
+2026-08-01 14:23:16,811 | INFO |alembic.runtime.plugins |setup plugin alembic.autogenerate.schemas
+2026-08-01 14:23:16,811 | INFO |alembic.runtime.plugins |setup plugin alembic.autogenerate.tables
+2026-08-01 14:23:16,811 | INFO |alembic.runtime.plugins |setup plugin alembic.autogenerate.types
+2026-08-01 14:23:16,811 | INFO |alembic.runtime.plugins |setup plugin alembic.autogenerate.constraints
+2026-08-01 14:23:16,811 | INFO |alembic.runtime.plugins |setup plugin alembic.autogenerate.defaults
+2026-08-01 14:23:16,811 | INFO |alembic.runtime.plugins |setup plugin alembic.autogenerate.comments
+2026-08-01 14:23:16,879 | WARNING |werkzeug | * Debugger is active!
+2026-08-01 14:23:16,881 | INFO |werkzeug | * Debugger PIN: 145-784-584
+2026-08-01 14:24:55,353 | INFO |alembic.runtime.plugins |setup plugin alembic.autogenerate.schemas
+2026-08-01 14:24:55,353 | INFO |alembic.runtime.plugins |setup plugin alembic.autogenerate.tables
+2026-08-01 14:24:55,353 | INFO |alembic.runtime.plugins |setup plugin alembic.autogenerate.types
+2026-08-01 14:24:55,353 | INFO |alembic.runtime.plugins |setup plugin alembic.autogenerate.constraints
+2026-08-01 14:24:55,353 | INFO |alembic.runtime.plugins |setup plugin alembic.autogenerate.defaults
+2026-08-01 14:24:55,353 | INFO |alembic.runtime.plugins |setup plugin alembic.autogenerate.comments
+2026-08-01 14:24:55,426 | INFO |werkzeug |[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-08-01 14:24:55,426 | INFO |werkzeug |[33mPress CTRL+C to quit[0m
+2026-08-01 14:24:55,427 | INFO |werkzeug | * Restarting with stat
+2026-08-01 14:24:56,078 | INFO |alembic.runtime.plugins |setup plugin alembic.autogenerate.schemas
+2026-08-01 14:24:56,078 | INFO |alembic.runtime.plugins |setup plugin alembic.autogenerate.tables
+2026-08-01 14:24:56,078 | INFO |alembic.runtime.plugins |setup plugin alembic.autogenerate.types
+2026-08-01 14:24:56,079 | INFO |alembic.runtime.plugins |setup plugin alembic.autogenerate.constraints
+2026-08-01 14:24:56,079 | INFO |alembic.runtime.plugins |setup plugin alembic.autogenerate.defaults
+2026-08-01 14:24:56,079 | INFO |alembic.runtime.plugins |setup plugin alembic.autogenerate.comments
+2026-08-01 14:24:56,144 | WARNING |werkzeug | * Debugger is active!
+2026-08-01 14:24:56,146 | INFO |werkzeug | * Debugger PIN: 145-784-584
+2026-08-01 14:25:00,811 | INFO |werkzeug |127.0.0.1 - - [01/Aug/2026 14:25:00] "[32mGET / HTTP/1.1[0m" 302 -
+2026-08-01 14:25:00,867 | INFO |werkzeug |127.0.0.1 - - [01/Aug/2026 14:25:00] "GET /login?next=/ HTTP/1.1" 200 -
+2026-08-01 14:25:01,027 | INFO |werkzeug |127.0.0.1 - - [01/Aug/2026 14:25:01] "[36mGET /static/css/pages/errors.css HTTP/1.1[0m" 304 -
+2026-08-01 14:25:01,030 | INFO |werkzeug |127.0.0.1 - - [01/Aug/2026 14:25:01] "GET /static/css/main.css HTTP/1.1" 200 -
+2026-08-01 14:25:01,030 | INFO |werkzeug |127.0.0.1 - - [01/Aug/2026 14:25:01] "[36mGET /static/css/components/forms.css HTTP/1.1[0m" 304 -
+2026-08-01 14:25:01,038 | INFO |werkzeug |127.0.0.1 - - [01/Aug/2026 14:25:01] "[36mGET /static/css/base/variable.css HTTP/1.1[0m" 304 -
+2026-08-01 14:25:01,039 | INFO |werkzeug |127.0.0.1 - - [01/Aug/2026 14:25:01] "[36mGET /static/css/components/flash.css HTTP/1.1[0m" 304 -
+2026-08-01 14:25:01,039 | INFO |werkzeug |127.0.0.1 - - [01/Aug/2026 14:25:01] "[36mGET /static/css/components/navbar.css HTTP/1.1[0m" 304 -
+2026-08-01 14:25:01,051 | WARNING |New_Maulakalika_Suppliers |404 Page Not Found
+2026-08-01 14:25:01,053 | INFO |werkzeug |127.0.0.1 - - [01/Aug/2026 14:25:01] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-08-01 14:25:16,567 | INFO |werkzeug |127.0.0.1 - - [01/Aug/2026 14:25:16] "[32mPOST /login?next=/ HTTP/1.1[0m" 302 -
+2026-08-01 14:25:16,587 | INFO |werkzeug |127.0.0.1 - - [01/Aug/2026 14:25:16] "GET / HTTP/1.1" 200 -
+2026-08-01 14:25:16,610 | INFO |werkzeug |127.0.0.1 - - [01/Aug/2026 14:25:16] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2026-08-01 14:25:16,611 | INFO |werkzeug |127.0.0.1 - - [01/Aug/2026 14:25:16] "[36mGET /static/css/components/forms.css HTTP/1.1[0m" 304 -
+2026-08-01 14:25:16,612 | INFO |werkzeug |127.0.0.1 - - [01/Aug/2026 14:25:16] "[36mGET /static/css/pages/errors.css HTTP/1.1[0m" 304 -
+2026-08-01 14:25:16,630 | INFO |werkzeug |127.0.0.1 - - [01/Aug/2026 14:25:16] "[36mGET /static/css/base/variable.css HTTP/1.1[0m" 304 -
+2026-08-01 14:25:16,637 | INFO |werkzeug |127.0.0.1 - - [01/Aug/2026 14:25:16] "[36mGET /static/css/components/navbar.css HTTP/1.1[0m" 304 -
+2026-08-01 14:25:16,641 | INFO |werkzeug |127.0.0.1 - - [01/Aug/2026 14:25:16] "[36mGET /static/css/components/flash.css HTTP/1.1[0m" 304 -
+2026-08-01 14:25:39,398 | WARNING |New_Maulakalika_Suppliers |404 Page Not Found
+2026-08-01 14:25:39,401 | INFO |werkzeug |127.0.0.1 - - [01/Aug/2026 14:25:39] "[33mGET /logout HTTP/1.1[0m" 404 -
+2026-08-01 14:25:39,434 | INFO |werkzeug |127.0.0.1 - - [01/Aug/2026 14:25:39] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2026-08-01 14:25:39,438 | INFO |werkzeug |127.0.0.1 - - [01/Aug/2026 14:25:39] "[36mGET /static/css/components/forms.css HTTP/1.1[0m" 304 -
+2026-08-01 14:25:39,443 | INFO |werkzeug |127.0.0.1 - - [01/Aug/2026 14:25:39] "[36mGET /static/css/pages/errors.css HTTP/1.1[0m" 304 -
+2026-08-01 14:25:39,444 | INFO |werkzeug |127.0.0.1 - - [01/Aug/2026 14:25:39] "[36mGET /static/css/base/variable.css HTTP/1.1[0m" 304 -
+2026-08-01 14:25:39,446 | INFO |werkzeug |127.0.0.1 - - [01/Aug/2026 14:25:39] "[36mGET /static/css/components/navbar.css HTTP/1.1[0m" 304 -
+2026-08-01 14:25:39,447 | INFO |werkzeug |127.0.0.1 - - [01/Aug/2026 14:25:39] "[36mGET /static/css/components/flash.css HTTP/1.1[0m" 304 -
+2026-08-01 14:25:41,787 | INFO |werkzeug |127.0.0.1 - - [01/Aug/2026 14:25:41] "GET / HTTP/1.1" 200 -
+2026-08-01 14:25:41,812 | INFO |werkzeug |127.0.0.1 - - [01/Aug/2026 14:25:41] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2026-08-01 14:25:41,812 | INFO |werkzeug |127.0.0.1 - - [01/Aug/2026 14:25:41] "[36mGET /static/css/components/forms.css HTTP/1.1[0m" 304 -
+2026-08-01 14:25:41,813 | INFO |werkzeug |127.0.0.1 - - [01/Aug/2026 14:25:41] "[36mGET /static/css/pages/errors.css HTTP/1.1[0m" 304 -
+2026-08-01 14:25:41,820 | INFO |werkzeug |127.0.0.1 - - [01/Aug/2026 14:25:41] "[36mGET /static/css/base/variable.css HTTP/1.1[0m" 304 -
+2026-08-01 14:25:41,821 | INFO |werkzeug |127.0.0.1 - - [01/Aug/2026 14:25:41] "[36mGET /static/css/components/navbar.css HTTP/1.1[0m" 304 -
+2026-08-01 14:25:41,823 | INFO |werkzeug |127.0.0.1 - - [01/Aug/2026 14:25:41] "[36mGET /static/css/components/flash.css HTTP/1.1[0m" 304 -
+2026-08-01 14:26:53,969 | INFO |New_Maulakalika_Suppliers |Submission created for email=parajulidikshit@gmail.com
+2026-08-01 14:26:58,201 | INFO |werkzeug |127.0.0.1 - - [01/Aug/2026 14:26:58] "[32mPOST / HTTP/1.1[0m" 302 -
+2026-08-01 14:26:58,219 | INFO |werkzeug |127.0.0.1 - - [01/Aug/2026 14:26:58] "GET / HTTP/1.1" 200 -
+2026-08-01 14:26:58,243 | INFO |werkzeug |127.0.0.1 - - [01/Aug/2026 14:26:58] "[36mGET /static/css/pages/errors.css HTTP/1.1[0m" 304 -
+2026-08-01 14:26:58,243 | INFO |werkzeug |127.0.0.1 - - [01/Aug/2026 14:26:58] "[36mGET /static/css/components/forms.css HTTP/1.1[0m" 304 -
+2026-08-01 14:26:58,244 | INFO |werkzeug |127.0.0.1 - - [01/Aug/2026 14:26:58] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2026-08-01 14:26:58,249 | INFO |werkzeug |127.0.0.1 - - [01/Aug/2026 14:26:58] "[36mGET /static/css/base/variable.css HTTP/1.1[0m" 304 -
+2026-08-01 14:26:58,251 | INFO |werkzeug |127.0.0.1 - - [01/Aug/2026 14:26:58] "[36mGET /static/css/components/navbar.css HTTP/1.1[0m" 304 -
+2026-08-01 14:26:58,252 | INFO |werkzeug |127.0.0.1 - - [01/Aug/2026 14:26:58] "[36mGET /static/css/components/flash.css HTTP/1.1[0m" 304 -

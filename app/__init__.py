@@ -8,6 +8,7 @@ import app.logging_config
 
 # Import Routes
 from app.routes.main import main
+from app.routes.auth import auth
 
 # Import Error Handler
 from app.errors import register_error_handlers
@@ -15,17 +16,18 @@ from app.errors import register_error_handlers
 # Import Config
 from config import DevelopmentConfig
 
-
 # Import Extentions
 from app.extensions import (
     db,
+    login_manager,
     migrate,
     csrf,
     mail,
 )
 
-# Import app models for database
-import app.models
+# Import User Model
+from app.models.user import User
+
 
 def create_app():
 
@@ -35,9 +37,9 @@ def create_app():
     # Load configurations
     app.config.from_object(DevelopmentConfig)
 
-
     # Initialize Extentions
     db.init_app(app)
+    login_manager.init_app(app)
     mail.init_app(app)
     migrate.init_app(app, db)
     csrf.init_app(app)
@@ -45,10 +47,16 @@ def create_app():
 
     # Register blueprints
     app.register_blueprint(main)
+    app.register_blueprint(auth)
+    
 
     # Register error handler blueprints
     register_error_handlers(app)
 
-    
+    # Create User Loader for Authorization
+    @login_manager.user_loader
+    def load_user(user_id):
+        return db.session.get(User, int(user_id))
+
 
     return app

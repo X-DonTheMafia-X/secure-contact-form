@@ -5,6 +5,7 @@ from flask import (
     url_for,
     flash
 )
+from flask_login import login_required
 
 # Import forms
 from app.forms.contact_form import ContactForm
@@ -21,6 +22,7 @@ from app.extensions import db
 main = Blueprint("main", __name__)
 
 @main.route("/", methods=["GET", "POST"])
+@login_required
 def home():
 
     form = ContactForm()
