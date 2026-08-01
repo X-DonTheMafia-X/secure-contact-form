@@ -305,3 +305,27 @@ RuntimeError: Testing the 500 error handler
 2026-07-31 17:10:21,308 | INFO |werkzeug |127.0.0.1 - - [31/Jul/2026 17:10:21] "[36mGET /static/css/components/navbar.css HTTP/1.1[0m" 304 -
 2026-07-31 17:10:21,309 | INFO |werkzeug |127.0.0.1 - - [31/Jul/2026 17:10:21] "[36mGET /static/css/base/variable.css HTTP/1.1[0m" 304 -
 2026-07-31 17:10:21,309 | INFO |werkzeug |127.0.0.1 - - [31/Jul/2026 17:10:21] "[36mGET /static/css/components/flash.css HTTP/1.1[0m" 304 -
+2026-07-31 23:44:35,611 | INFO |alembic.runtime.plugins |setup plugin alembic.autogenerate.schemas
+2026-07-31 23:44:35,613 | INFO |alembic.runtime.plugins |setup plugin alembic.autogenerate.tables
+2026-07-31 23:44:35,613 | INFO |alembic.runtime.plugins |setup plugin alembic.autogenerate.types
+2026-07-31 23:44:35,613 | INFO |alembic.runtime.plugins |setup plugin alembic.autogenerate.constraints
+2026-07-31 23:44:35,613 | INFO |alembic.runtime.plugins |setup plugin alembic.autogenerate.defaults
+2026-07-31 23:44:35,613 | INFO |alembic.runtime.plugins |setup plugin alembic.autogenerate.comments
+2026-07-31 23:47:15,919 | INFO |alembic.runtime.plugins |setup plugin alembic.autogenerate.schemas
+2026-07-31 23:47:15,919 | INFO |alembic.runtime.plugins |setup plugin alembic.autogenerate.tables
+2026-07-31 23:47:15,919 | INFO |alembic.runtime.plugins |setup plugin alembic.autogenerate.types
+2026-07-31 23:47:15,919 | INFO |alembic.runtime.plugins |setup plugin alembic.autogenerate.constraints
+2026-07-31 23:47:15,919 | INFO |alembic.runtime.plugins |setup plugin alembic.autogenerate.defaults
+2026-07-31 23:47:15,919 | INFO |alembic.runtime.plugins |setup plugin alembic.autogenerate.comments
+2026-07-31 23:47:50,558 | INFO |alembic.runtime.plugins |setup plugin alembic.autogenerate.schemas
+2026-07-31 23:47:50,558 | INFO |alembic.runtime.plugins |setup plugin alembic.autogenerate.tables
+2026-07-31 23:47:50,558 | INFO |alembic.runtime.plugins |setup plugin alembic.autogenerate.types
+2026-07-31 23:47:50,558 | INFO |alembic.runtime.plugins |setup plugin alembic.autogenerate.constraints
+2026-07-31 23:47:50,558 | INFO |alembic.runtime.plugins |setup plugin alembic.autogenerate.defaults
+2026-07-31 23:47:50,558 | INFO |alembic.runtime.plugins |setup plugin alembic.autogenerate.comments
+2026-07-31 23:48:29,451 | INFO |alembic.runtime.plugins |setup plugin alembic.autogenerate.schemas
+2026-07-31 23:48:29,451 | INFO |alembic.runtime.plugins |setup plugin alembic.autogenerate.tables
+2026-07-31 23:48:29,451 | INFO |alembic.runtime.plugins |setup plugin alembic.autogenerate.types
+2026-07-31 23:48:29,452 | INFO |alembic.runtime.plugins |setup plugin alembic.autogenerate.constraints
+2026-07-31 23:48:29,452 | INFO |alembic.runtime.plugins |setup plugin alembic.autogenerate.defaults
+2026-07-31 23:48:29,452 | INFO |alembic.runtime.plugins |setup plugin alembic.autogenerate.comments
