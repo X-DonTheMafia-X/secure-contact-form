@@ -22,10 +22,13 @@ Login
     </p>
 
     <p>
-        {{ form.submit() }}
+        {{ form.remember() }}
+        {{ form.remember.label }}
     </p>
 
-
+    <p>
+        {{ form.submit(class="login") }}
+    </p>
 
 </form>
 

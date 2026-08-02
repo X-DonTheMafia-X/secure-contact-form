@@ -5,7 +5,11 @@
 }
 
 .flash-success {
-    background: #0561ff;
+    background: var(--color-primary);
     color: white;
     border: 1px solid #008cef;
+}
+.flash-danger{
+    color: rgb(160, 5, 5);
+
 }

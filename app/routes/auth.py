@@ -9,6 +9,11 @@ from flask import (
 from app.forms.login_form import LoginForm
 from app.services.auth_service import authenticate_user
 
+from flask_login import(
+    login_required,
+    logout_user
+)
+
 auth = Blueprint("auth", __name__)
 
 @auth.route("/login", methods=["GET", "POST"])
@@ -20,13 +25,14 @@ def login():
 
         success = authenticate_user(
             form.username.data,
-            form.password.data
+            form.password.data,
+            form.remember.data
         )
 
         if success:
 
             flash(
-                f"Welcome back, {form.username.data}"
+                f"Welcome back, {form.username.data}",
                 "success"
             )
 
@@ -41,4 +47,18 @@ def login():
     return render_template(
         "pages/login.html",
         form=form
+    )
+@auth.route("/logout")
+@login_required
+def logout():
+
+    logout_user()
+
+    flash(
+        "You have been logged out.",
+        "success"
+    )
+
+    return redirect(
+        url_for("auth.login")
     )

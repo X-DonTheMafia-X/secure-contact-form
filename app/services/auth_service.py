@@ -1,7 +1,7 @@
 from flask_login import login_user
 from app.models.user import User
 
-def authenticate_user(username, password):
+def authenticate_user(username, password, remember=False):
     user = User.query.filter_by(username=username).first()
 
     if user is None:
@@ -10,6 +10,9 @@ def authenticate_user(username, password):
     if not user.check_password(password):
         return False
 
-    login_user(user)
+    login_user(
+        user,
+        remember=remember
+        )
 
     return True

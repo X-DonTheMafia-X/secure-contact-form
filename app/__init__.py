@@ -9,6 +9,7 @@ import app.logging_config
 # Import Routes
 from app.routes.main import main
 from app.routes.auth import auth
+from app.routes.admin import admin
 
 # Import Error Handler
 from app.errors import register_error_handlers
@@ -24,10 +25,11 @@ from app.extensions import (
     csrf,
     mail,
 )
+# Import Models
+import app.models
 
 # Import User Model
 from app.models.user import User
-
 
 def create_app():
 
@@ -48,6 +50,7 @@ def create_app():
     # Register blueprints
     app.register_blueprint(main)
     app.register_blueprint(auth)
+    app.register_blueprint(admin)
     
 
     # Register error handler blueprints

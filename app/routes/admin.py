@@ -1,0 +1,25 @@
+from flask import (
+    Blueprint,
+    render_template
+)
+
+from flask_login import login_required
+
+from app.security.authorization import(
+    admin_required
+)
+
+admin = Blueprint(
+    "admin",
+    __name__,
+    url_prefix="/admin"
+)
+
+@admin.route("/")
+@login_required
+@admin_required
+def dashboard():
+
+    return render_template(
+        "pages/admin_dashboard.html"
+    )

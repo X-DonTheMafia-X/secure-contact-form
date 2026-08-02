@@ -3,8 +3,19 @@
         New Maulakalika Suppliers
     </div>
     <ul class="navbar__links">
-        <li><a href="/">Home</a></li>
-        <li><a href="#">Contact</a></li>
-        <li><a href="#">Login</a></li>
+        <li><a href="{{url_for('main.home')}}">Home</a></li>
+        <li><a href="{{url_for('main.home')}}">Contact</a></li>
+
+        {% if current_user.is_authenticated %}
+
+        <li><a href="{{url_for('admin.dashboard')}}">Dashboard</a></li>
+        <li><a href="{{url_for('auth.logout')}}">Logout</a></li>
+
+        {% else %}
+
+        <li><a href="{{url_for('auth.login')}}">Login</a></li>
+
+        {% endif %}
+
     </ul>
 </nav>

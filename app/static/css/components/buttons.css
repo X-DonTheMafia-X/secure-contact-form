@@ -1,0 +1,42 @@
+/* Form Submit button */
+.form-submit {
+    padding: var(--spacing-small);
+    border: none;
+    border-radius: var(--border-radius);
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: 600;
+    transition: all 0.2s ease;
+}
+
+.form-submit:hover {
+    color: white;
+    background-color: var(--color-primary);
+    transform: scale(1.05);
+}
+
+.form-submit:active {
+    transform: translateY(1px);
+}
+
+/* Login button */
+.login {
+    margin: var(--spacing-small);
+    padding: var(--spacing-small);
+    border: none;
+    border-radius: var(--border-radius);
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: 600;
+    transition: all 0.2s ease;
+}
+
+.login:hover {
+    color: white;
+    background-color: var(--color-primary);
+    transform: scale(1.05);
+}
+
+.login:active {
+    transform: translateY(1px);
+}
