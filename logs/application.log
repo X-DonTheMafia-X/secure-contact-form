@@ -427,3 +427,117 @@
 2026-08-01 22:13:22,725 | INFO |werkzeug |127.0.0.1 - - [01/Aug/2026 22:13:22] "[36mGET /static/css/components/navbar.css HTTP/1.1[0m" 304 -
 2026-08-01 22:13:22,726 | INFO |werkzeug |127.0.0.1 - - [01/Aug/2026 22:13:22] "[36mGET /static/css/components/flash.css HTTP/1.1[0m" 304 -
 2026-08-01 22:13:22,726 | INFO |werkzeug |127.0.0.1 - - [01/Aug/2026 22:13:22] "[36mGET /static/css/components/buttons.css HTTP/1.1[0m" 304 -
+2026-08-02 00:31:11,667 | INFO |alembic.runtime.plugins |setup plugin alembic.autogenerate.schemas
+2026-08-02 00:31:11,667 | INFO |alembic.runtime.plugins |setup plugin alembic.autogenerate.tables
+2026-08-02 00:31:11,668 | INFO |alembic.runtime.plugins |setup plugin alembic.autogenerate.types
+2026-08-02 00:31:11,668 | INFO |alembic.runtime.plugins |setup plugin alembic.autogenerate.constraints
+2026-08-02 00:31:11,668 | INFO |alembic.runtime.plugins |setup plugin alembic.autogenerate.defaults
+2026-08-02 00:31:11,668 | INFO |alembic.runtime.plugins |setup plugin alembic.autogenerate.comments
+2026-08-02 00:31:21,768 | INFO |alembic.runtime.plugins |setup plugin alembic.autogenerate.schemas
+2026-08-02 00:31:21,768 | INFO |alembic.runtime.plugins |setup plugin alembic.autogenerate.tables
+2026-08-02 00:31:21,768 | INFO |alembic.runtime.plugins |setup plugin alembic.autogenerate.types
+2026-08-02 00:31:21,768 | INFO |alembic.runtime.plugins |setup plugin alembic.autogenerate.constraints
+2026-08-02 00:31:21,769 | INFO |alembic.runtime.plugins |setup plugin alembic.autogenerate.defaults
+2026-08-02 00:31:21,769 | INFO |alembic.runtime.plugins |setup plugin alembic.autogenerate.comments
+2026-08-02 00:32:11,356 | INFO |alembic.runtime.plugins |setup plugin alembic.autogenerate.schemas
+2026-08-02 00:32:11,357 | INFO |alembic.runtime.plugins |setup plugin alembic.autogenerate.tables
+2026-08-02 00:32:11,357 | INFO |alembic.runtime.plugins |setup plugin alembic.autogenerate.types
+2026-08-02 00:32:11,357 | INFO |alembic.runtime.plugins |setup plugin alembic.autogenerate.constraints
+2026-08-02 00:32:11,357 | INFO |alembic.runtime.plugins |setup plugin alembic.autogenerate.defaults
+2026-08-02 00:32:11,357 | INFO |alembic.runtime.plugins |setup plugin alembic.autogenerate.comments
+2026-08-02 00:32:11,429 | INFO |werkzeug |[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-08-02 00:32:11,429 | INFO |werkzeug |[33mPress CTRL+C to quit[0m
+2026-08-02 00:32:11,429 | INFO |werkzeug | * Restarting with stat
+2026-08-02 00:32:11,946 | INFO |alembic.runtime.plugins |setup plugin alembic.autogenerate.schemas
+2026-08-02 00:32:11,946 | INFO |alembic.runtime.plugins |setup plugin alembic.autogenerate.tables
+2026-08-02 00:32:11,946 | INFO |alembic.runtime.plugins |setup plugin alembic.autogenerate.types
+2026-08-02 00:32:11,946 | INFO |alembic.runtime.plugins |setup plugin alembic.autogenerate.constraints
+2026-08-02 00:32:11,946 | INFO |alembic.runtime.plugins |setup plugin alembic.autogenerate.defaults
+2026-08-02 00:32:11,946 | INFO |alembic.runtime.plugins |setup plugin alembic.autogenerate.comments
+2026-08-02 00:32:12,006 | WARNING |werkzeug | * Debugger is active!
+2026-08-02 00:32:12,008 | INFO |werkzeug | * Debugger PIN: 145-784-584
+2026-08-02 00:32:19,400 | INFO |werkzeug |127.0.0.1 - - [02/Aug/2026 00:32:19] "GET / HTTP/1.1" 200 -
+2026-08-02 00:32:19,581 | INFO |werkzeug |127.0.0.1 - - [02/Aug/2026 00:32:19] "[36mGET /static/css/components/forms.css HTTP/1.1[0m" 304 -
+2026-08-02 00:32:19,584 | INFO |werkzeug |127.0.0.1 - - [02/Aug/2026 00:32:19] "[36mGET /static/css/pages/errors.css HTTP/1.1[0m" 304 -
+2026-08-02 00:32:19,587 | INFO |werkzeug |127.0.0.1 - - [02/Aug/2026 00:32:19] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2026-08-02 00:32:19,594 | INFO |werkzeug |127.0.0.1 - - [02/Aug/2026 00:32:19] "[36mGET /static/css/base/variable.css HTTP/1.1[0m" 304 -
+2026-08-02 00:32:19,595 | INFO |werkzeug |127.0.0.1 - - [02/Aug/2026 00:32:19] "[36mGET /static/css/components/navbar.css HTTP/1.1[0m" 304 -
+2026-08-02 00:32:19,596 | INFO |werkzeug |127.0.0.1 - - [02/Aug/2026 00:32:19] "[36mGET /static/css/components/flash.css HTTP/1.1[0m" 304 -
+2026-08-02 00:32:19,598 | INFO |werkzeug |127.0.0.1 - - [02/Aug/2026 00:32:19] "[36mGET /static/css/components/buttons.css HTTP/1.1[0m" 304 -
+2026-08-02 00:32:33,062 | INFO |werkzeug |127.0.0.1 - - [02/Aug/2026 00:32:33] "[35m[1mGET /logout HTTP/1.1[0m" 500 -
+2026-08-02 00:32:33,091 | INFO |werkzeug |127.0.0.1 - - [02/Aug/2026 00:32:33] "GET /logout?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2026-08-02 00:32:33,093 | INFO |werkzeug |127.0.0.1 - - [02/Aug/2026 00:32:33] "GET /logout?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2026-08-02 00:32:33,120 | INFO |werkzeug |127.0.0.1 - - [02/Aug/2026 00:32:33] "GET /logout?__debugger__=yes&cmd=resource&f=console.png&s=icCTyLDxEiz1mh6KH9Z1 HTTP/1.1" 200 -
+2026-08-02 00:32:33,127 | INFO |werkzeug |127.0.0.1 - - [02/Aug/2026 00:32:33] "GET /logout?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2026-08-02 00:33:22,394 | INFO |werkzeug | * Detected change in 'C:\\Users\\diksh\\documents\\contact-form\\app\\routes\\auth.py', reloading
+2026-08-02 00:33:22,673 | INFO |werkzeug | * Restarting with stat
+2026-08-02 00:33:23,245 | INFO |alembic.runtime.plugins |setup plugin alembic.autogenerate.schemas
+2026-08-02 00:33:23,245 | INFO |alembic.runtime.plugins |setup plugin alembic.autogenerate.tables
+2026-08-02 00:33:23,246 | INFO |alembic.runtime.plugins |setup plugin alembic.autogenerate.types
+2026-08-02 00:33:23,246 | INFO |alembic.runtime.plugins |setup plugin alembic.autogenerate.constraints
+2026-08-02 00:33:23,246 | INFO |alembic.runtime.plugins |setup plugin alembic.autogenerate.defaults
+2026-08-02 00:33:23,246 | INFO |alembic.runtime.plugins |setup plugin alembic.autogenerate.comments
+2026-08-02 00:33:23,308 | WARNING |werkzeug | * Debugger is active!
+2026-08-02 00:33:23,310 | INFO |werkzeug | * Debugger PIN: 145-784-584
+2026-08-02 00:33:26,767 | INFO |werkzeug |127.0.0.1 - - [02/Aug/2026 00:33:26] "[32mGET /logout HTTP/1.1[0m" 302 -
+2026-08-02 00:33:26,779 | INFO |werkzeug |127.0.0.1 - - [02/Aug/2026 00:33:26] "GET /login HTTP/1.1" 200 -
+2026-08-02 00:33:26,951 | INFO |werkzeug |127.0.0.1 - - [02/Aug/2026 00:33:26] "[36mGET /static/css/components/forms.css HTTP/1.1[0m" 304 -
+2026-08-02 00:33:26,968 | INFO |werkzeug |127.0.0.1 - - [02/Aug/2026 00:33:26] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2026-08-02 00:33:26,971 | INFO |werkzeug |127.0.0.1 - - [02/Aug/2026 00:33:26] "[36mGET /static/css/pages/errors.css HTTP/1.1[0m" 304 -
+2026-08-02 00:33:26,977 | INFO |werkzeug |127.0.0.1 - - [02/Aug/2026 00:33:26] "[36mGET /static/css/base/variable.css HTTP/1.1[0m" 304 -
+2026-08-02 00:33:26,979 | INFO |werkzeug |127.0.0.1 - - [02/Aug/2026 00:33:26] "[36mGET /static/css/components/navbar.css HTTP/1.1[0m" 304 -
+2026-08-02 00:33:26,982 | INFO |werkzeug |127.0.0.1 - - [02/Aug/2026 00:33:26] "[36mGET /static/css/components/flash.css HTTP/1.1[0m" 304 -
+2026-08-02 00:33:26,983 | INFO |werkzeug |127.0.0.1 - - [02/Aug/2026 00:33:26] "[36mGET /static/css/components/buttons.css HTTP/1.1[0m" 304 -
+2026-08-02 00:34:33,028 | INFO |werkzeug |127.0.0.1 - - [02/Aug/2026 00:34:33] "[32mPOST /login HTTP/1.1[0m" 302 -
+2026-08-02 00:34:33,041 | INFO |werkzeug |127.0.0.1 - - [02/Aug/2026 00:34:33] "GET / HTTP/1.1" 200 -
+2026-08-02 00:34:33,061 | INFO |werkzeug |127.0.0.1 - - [02/Aug/2026 00:34:33] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2026-08-02 00:34:33,063 | INFO |werkzeug |127.0.0.1 - - [02/Aug/2026 00:34:33] "[36mGET /static/css/components/forms.css HTTP/1.1[0m" 304 -
+2026-08-02 00:34:33,082 | INFO |werkzeug |127.0.0.1 - - [02/Aug/2026 00:34:33] "[36mGET /static/css/pages/errors.css HTTP/1.1[0m" 304 -
+2026-08-02 00:34:33,087 | INFO |werkzeug |127.0.0.1 - - [02/Aug/2026 00:34:33] "[36mGET /static/css/base/variable.css HTTP/1.1[0m" 304 -
+2026-08-02 00:34:33,089 | INFO |werkzeug |127.0.0.1 - - [02/Aug/2026 00:34:33] "[36mGET /static/css/components/navbar.css HTTP/1.1[0m" 304 -
+2026-08-02 00:34:33,094 | INFO |werkzeug |127.0.0.1 - - [02/Aug/2026 00:34:33] "[36mGET /static/css/components/buttons.css HTTP/1.1[0m" 304 -
+2026-08-02 00:34:33,094 | INFO |werkzeug |127.0.0.1 - - [02/Aug/2026 00:34:33] "[36mGET /static/css/components/flash.css HTTP/1.1[0m" 304 -
+2026-08-02 00:34:34,950 | INFO |werkzeug |127.0.0.1 - - [02/Aug/2026 00:34:34] "GET / HTTP/1.1" 200 -
+2026-08-02 00:34:34,976 | INFO |werkzeug |127.0.0.1 - - [02/Aug/2026 00:34:34] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2026-08-02 00:34:34,977 | INFO |werkzeug |127.0.0.1 - - [02/Aug/2026 00:34:34] "[36mGET /static/css/components/forms.css HTTP/1.1[0m" 304 -
+2026-08-02 00:34:34,981 | INFO |werkzeug |127.0.0.1 - - [02/Aug/2026 00:34:34] "[36mGET /static/css/pages/errors.css HTTP/1.1[0m" 304 -
+2026-08-02 00:34:34,988 | INFO |werkzeug |127.0.0.1 - - [02/Aug/2026 00:34:34] "[36mGET /static/css/base/variable.css HTTP/1.1[0m" 304 -
+2026-08-02 00:34:34,990 | INFO |werkzeug |127.0.0.1 - - [02/Aug/2026 00:34:34] "[36mGET /static/css/components/navbar.css HTTP/1.1[0m" 304 -
+2026-08-02 00:34:34,997 | INFO |werkzeug |127.0.0.1 - - [02/Aug/2026 00:34:34] "[36mGET /static/css/components/buttons.css HTTP/1.1[0m" 304 -
+2026-08-02 00:34:34,998 | INFO |werkzeug |127.0.0.1 - - [02/Aug/2026 00:34:34] "[36mGET /static/css/components/flash.css HTTP/1.1[0m" 304 -
+2026-08-02 00:34:45,937 | INFO |werkzeug |127.0.0.1 - - [02/Aug/2026 00:34:45] "[31m[1mGET /admin/ HTTP/1.1[0m" 403 -
+2026-08-02 00:34:49,365 | INFO |werkzeug |127.0.0.1 - - [02/Aug/2026 00:34:49] "[32mGET /logout HTTP/1.1[0m" 302 -
+2026-08-02 00:34:49,385 | INFO |werkzeug |127.0.0.1 - - [02/Aug/2026 00:34:49] "GET /login HTTP/1.1" 200 -
+2026-08-02 00:34:49,410 | INFO |werkzeug |127.0.0.1 - - [02/Aug/2026 00:34:49] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2026-08-02 00:34:49,410 | INFO |werkzeug |127.0.0.1 - - [02/Aug/2026 00:34:49] "[36mGET /static/css/pages/errors.css HTTP/1.1[0m" 304 -
+2026-08-02 00:34:49,411 | INFO |werkzeug |127.0.0.1 - - [02/Aug/2026 00:34:49] "[36mGET /static/css/components/forms.css HTTP/1.1[0m" 304 -
+2026-08-02 00:34:49,419 | INFO |werkzeug |127.0.0.1 - - [02/Aug/2026 00:34:49] "[36mGET /static/css/components/navbar.css HTTP/1.1[0m" 304 -
+2026-08-02 00:34:49,420 | INFO |werkzeug |127.0.0.1 - - [02/Aug/2026 00:34:49] "[36mGET /static/css/base/variable.css HTTP/1.1[0m" 304 -
+2026-08-02 00:34:49,421 | INFO |werkzeug |127.0.0.1 - - [02/Aug/2026 00:34:49] "[36mGET /static/css/components/flash.css HTTP/1.1[0m" 304 -
+2026-08-02 00:34:49,422 | INFO |werkzeug |127.0.0.1 - - [02/Aug/2026 00:34:49] "[36mGET /static/css/components/buttons.css HTTP/1.1[0m" 304 -
+2026-08-02 00:34:57,463 | INFO |werkzeug |127.0.0.1 - - [02/Aug/2026 00:34:57] "POST /login HTTP/1.1" 200 -
+2026-08-02 00:34:57,484 | INFO |werkzeug |127.0.0.1 - - [02/Aug/2026 00:34:57] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2026-08-02 00:34:57,484 | INFO |werkzeug |127.0.0.1 - - [02/Aug/2026 00:34:57] "[36mGET /static/css/components/forms.css HTTP/1.1[0m" 304 -
+2026-08-02 00:34:57,486 | INFO |werkzeug |127.0.0.1 - - [02/Aug/2026 00:34:57] "[36mGET /static/css/pages/errors.css HTTP/1.1[0m" 304 -
+2026-08-02 00:34:57,490 | INFO |werkzeug |127.0.0.1 - - [02/Aug/2026 00:34:57] "[36mGET /static/css/base/variable.css HTTP/1.1[0m" 304 -
+2026-08-02 00:34:57,492 | INFO |werkzeug |127.0.0.1 - - [02/Aug/2026 00:34:57] "[36mGET /static/css/components/navbar.css HTTP/1.1[0m" 304 -
+2026-08-02 00:34:57,494 | INFO |werkzeug |127.0.0.1 - - [02/Aug/2026 00:34:57] "[36mGET /static/css/components/flash.css HTTP/1.1[0m" 304 -
+2026-08-02 00:34:57,498 | INFO |werkzeug |127.0.0.1 - - [02/Aug/2026 00:34:57] "[36mGET /static/css/components/buttons.css HTTP/1.1[0m" 304 -
+2026-08-02 00:35:17,194 | INFO |werkzeug |127.0.0.1 - - [02/Aug/2026 00:35:17] "POST /login HTTP/1.1" 200 -
+2026-08-02 00:35:17,225 | INFO |werkzeug |127.0.0.1 - - [02/Aug/2026 00:35:17] "[36mGET /static/css/components/forms.css HTTP/1.1[0m" 304 -
+2026-08-02 00:35:17,225 | INFO |werkzeug |127.0.0.1 - - [02/Aug/2026 00:35:17] "[36mGET /static/css/pages/errors.css HTTP/1.1[0m" 304 -
+2026-08-02 00:35:17,225 | INFO |werkzeug |127.0.0.1 - - [02/Aug/2026 00:35:17] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2026-08-02 00:35:17,240 | INFO |werkzeug |127.0.0.1 - - [02/Aug/2026 00:35:17] "[36mGET /static/css/components/navbar.css HTTP/1.1[0m" 304 -
+2026-08-02 00:35:17,241 | INFO |werkzeug |127.0.0.1 - - [02/Aug/2026 00:35:17] "[36mGET /static/css/base/variable.css HTTP/1.1[0m" 304 -
+2026-08-02 00:35:17,244 | INFO |werkzeug |127.0.0.1 - - [02/Aug/2026 00:35:17] "[36mGET /static/css/components/buttons.css HTTP/1.1[0m" 304 -
+2026-08-02 00:35:17,244 | INFO |werkzeug |127.0.0.1 - - [02/Aug/2026 00:35:17] "[36mGET /static/css/components/flash.css HTTP/1.1[0m" 304 -
+2026-08-02 00:35:24,866 | INFO |werkzeug |127.0.0.1 - - [02/Aug/2026 00:35:24] "[32mPOST /login HTTP/1.1[0m" 302 -
+2026-08-02 00:35:24,871 | INFO |werkzeug |127.0.0.1 - - [02/Aug/2026 00:35:24] "GET / HTTP/1.1" 200 -
+2026-08-02 00:35:24,905 | INFO |werkzeug |127.0.0.1 - - [02/Aug/2026 00:35:24] "[36mGET /static/css/components/forms.css HTTP/1.1[0m" 304 -
+2026-08-02 00:35:24,905 | INFO |werkzeug |127.0.0.1 - - [02/Aug/2026 00:35:24] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2026-08-02 00:35:24,906 | INFO |werkzeug |127.0.0.1 - - [02/Aug/2026 00:35:24] "[36mGET /static/css/pages/errors.css HTTP/1.1[0m" 304 -
+2026-08-02 00:35:24,912 | INFO |werkzeug |127.0.0.1 - - [02/Aug/2026 00:35:24] "[36mGET /static/css/base/variable.css HTTP/1.1[0m" 304 -
+2026-08-02 00:35:24,914 | INFO |werkzeug |127.0.0.1 - - [02/Aug/2026 00:35:24] "[36mGET /static/css/components/navbar.css HTTP/1.1[0m" 304 -
+2026-08-02 00:35:24,918 | INFO |werkzeug |127.0.0.1 - - [02/Aug/2026 00:35:24] "[36mGET /static/css/components/flash.css HTTP/1.1[0m" 304 -
+2026-08-02 00:35:24,921 | INFO |werkzeug |127.0.0.1 - - [02/Aug/2026 00:35:24] "[36mGET /static/css/components/buttons.css HTTP/1.1[0m" 304 -

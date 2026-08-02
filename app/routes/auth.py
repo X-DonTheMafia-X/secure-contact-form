@@ -14,6 +14,10 @@ from flask_login import(
     logout_user
 )
 
+from app.services.audit_service import(
+    log_security_event
+)
+
 auth = Blueprint("auth", __name__)
 
 @auth.route("/login", methods=["GET", "POST"])
@@ -51,6 +55,11 @@ def login():
 @auth.route("/logout")
 @login_required
 def logout():
+
+    log_security_event(
+        event_type="LOGOUT",
+        success=True
+    )
 
     logout_user()
 
