@@ -432,3 +432,262 @@
 2026-08-04 11:35:41,461 | INFO |werkzeug |127.0.0.1 - - [04/Aug/2026 11:35:41] "[32mGET /admin/ HTTP/1.1[0m" 302 -
 2026-08-04 11:35:41,468 | INFO |flask-limiter |ratelimit 5 per 1 minute (127.0.0.1) exceeded at endpoint: auth.login
 2026-08-04 11:35:41,470 | INFO |werkzeug |127.0.0.1 - - [04/Aug/2026 11:35:41] "[31m[1mGET /login?next=/admin/ HTTP/1.1[0m" 429 -
+2026-08-04 12:13:50,582 | INFO |alembic.runtime.plugins |setup plugin alembic.autogenerate.schemas
+2026-08-04 12:13:50,583 | INFO |alembic.runtime.plugins |setup plugin alembic.autogenerate.tables
+2026-08-04 12:13:50,583 | INFO |alembic.runtime.plugins |setup plugin alembic.autogenerate.types
+2026-08-04 12:13:50,583 | INFO |alembic.runtime.plugins |setup plugin alembic.autogenerate.constraints
+2026-08-04 12:13:50,583 | INFO |alembic.runtime.plugins |setup plugin alembic.autogenerate.defaults
+2026-08-04 12:13:50,583 | INFO |alembic.runtime.plugins |setup plugin alembic.autogenerate.comments
+2026-08-04 12:13:50,751 | INFO |werkzeug |[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-08-04 12:13:50,751 | INFO |werkzeug |[33mPress CTRL+C to quit[0m
+2026-08-04 12:13:50,755 | INFO |werkzeug | * Restarting with stat
+2026-08-04 12:13:51,413 | INFO |alembic.runtime.plugins |setup plugin alembic.autogenerate.schemas
+2026-08-04 12:13:51,414 | INFO |alembic.runtime.plugins |setup plugin alembic.autogenerate.tables
+2026-08-04 12:13:51,414 | INFO |alembic.runtime.plugins |setup plugin alembic.autogenerate.types
+2026-08-04 12:13:51,414 | INFO |alembic.runtime.plugins |setup plugin alembic.autogenerate.constraints
+2026-08-04 12:13:51,414 | INFO |alembic.runtime.plugins |setup plugin alembic.autogenerate.defaults
+2026-08-04 12:13:51,414 | INFO |alembic.runtime.plugins |setup plugin alembic.autogenerate.comments
+2026-08-04 12:13:51,550 | WARNING |werkzeug | * Debugger is active!
+2026-08-04 12:13:51,552 | INFO |werkzeug | * Debugger PIN: 145-784-584
+2026-08-04 12:13:57,847 | INFO |werkzeug |127.0.0.1 - - [04/Aug/2026 12:13:57] "GET / HTTP/1.1" 200 -
+2026-08-04 12:13:59,365 | INFO |werkzeug |127.0.0.1 - - [04/Aug/2026 12:13:59] "GET /static/css/components/forms.css HTTP/1.1" 200 -
+2026-08-04 12:13:59,389 | INFO |werkzeug |127.0.0.1 - - [04/Aug/2026 12:13:59] "GET /static/css/pages/errors.css HTTP/1.1" 200 -
+2026-08-04 12:13:59,391 | INFO |werkzeug |127.0.0.1 - - [04/Aug/2026 12:13:59] "GET /static/css/main.css HTTP/1.1" 200 -
+2026-08-04 12:13:59,483 | INFO |werkzeug |127.0.0.1 - - [04/Aug/2026 12:13:59] "GET /static/css/components/flash.css HTTP/1.1" 200 -
+2026-08-04 12:13:59,487 | INFO |werkzeug |127.0.0.1 - - [04/Aug/2026 12:13:59] "GET /static/css/base/variable.css HTTP/1.1" 200 -
+2026-08-04 12:13:59,489 | INFO |werkzeug |127.0.0.1 - - [04/Aug/2026 12:13:59] "GET /static/css/components/navbar.css HTTP/1.1" 200 -
+2026-08-04 12:13:59,499 | INFO |werkzeug |127.0.0.1 - - [04/Aug/2026 12:13:59] "GET /static/css/components/buttons.css HTTP/1.1" 200 -
+2026-08-04 12:13:59,683 | WARNING |New_Maulakalika_Suppliers |404 Page Not Found
+2026-08-04 12:13:59,709 | INFO |werkzeug |127.0.0.1 - - [04/Aug/2026 12:13:59] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-08-04 12:14:05,523 | INFO |werkzeug |127.0.0.1 - - [04/Aug/2026 12:14:05] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2026-08-04 12:14:05,525 | INFO |werkzeug |127.0.0.1 - - [04/Aug/2026 12:14:05] "[36mGET /static/css/base/variable.css HTTP/1.1[0m" 304 -
+2026-08-04 12:14:05,525 | INFO |werkzeug |127.0.0.1 - - [04/Aug/2026 12:14:05] "[36mGET /static/css/components/flash.css HTTP/1.1[0m" 304 -
+2026-08-04 12:14:05,527 | INFO |werkzeug |127.0.0.1 - - [04/Aug/2026 12:14:05] "[36mGET /static/css/components/navbar.css HTTP/1.1[0m" 304 -
+2026-08-04 12:14:05,534 | INFO |werkzeug |127.0.0.1 - - [04/Aug/2026 12:14:05] "[36mGET /static/css/components/buttons.css HTTP/1.1[0m" 304 -
+2026-08-04 12:14:05,535 | INFO |werkzeug |127.0.0.1 - - [04/Aug/2026 12:14:05] "[36mGET /static/css/components/forms.css HTTP/1.1[0m" 304 -
+2026-08-04 12:14:05,536 | INFO |werkzeug |127.0.0.1 - - [04/Aug/2026 12:14:05] "[36mGET /static/css/pages/errors.css HTTP/1.1[0m" 304 -
+2026-08-04 12:14:05,604 | WARNING |New_Maulakalika_Suppliers |404 Page Not Found
+2026-08-04 12:14:05,605 | INFO |werkzeug |127.0.0.1 - - [04/Aug/2026 12:14:05] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2026-08-04 12:14:23,670 | INFO |werkzeug |127.0.0.1 - - [04/Aug/2026 12:14:23] "GET / HTTP/1.1" 200 -
+2026-08-04 12:14:23,695 | INFO |werkzeug |127.0.0.1 - - [04/Aug/2026 12:14:23] "[36mGET /static/css/pages/errors.css HTTP/1.1[0m" 304 -
+2026-08-04 12:14:23,696 | INFO |werkzeug |127.0.0.1 - - [04/Aug/2026 12:14:23] "[36mGET /static/css/components/forms.css HTTP/1.1[0m" 304 -
+2026-08-04 12:14:23,696 | INFO |werkzeug |127.0.0.1 - - [04/Aug/2026 12:14:23] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2026-08-04 12:14:23,697 | WARNING |New_Maulakalika_Suppliers |404 Page Not Found
+2026-08-04 12:14:23,702 | INFO |werkzeug |127.0.0.1 - - [04/Aug/2026 12:14:23] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2026-08-04 12:14:23,708 | INFO |werkzeug |127.0.0.1 - - [04/Aug/2026 12:14:23] "[36mGET /static/css/base/variable.css HTTP/1.1[0m" 304 -
+2026-08-04 12:14:23,709 | INFO |werkzeug |127.0.0.1 - - [04/Aug/2026 12:14:23] "[36mGET /static/css/components/navbar.css HTTP/1.1[0m" 304 -
+2026-08-04 12:14:23,714 | INFO |werkzeug |127.0.0.1 - - [04/Aug/2026 12:14:23] "[36mGET /static/css/components/flash.css HTTP/1.1[0m" 304 -
+2026-08-04 12:14:23,716 | INFO |werkzeug |127.0.0.1 - - [04/Aug/2026 12:14:23] "[36mGET /static/css/components/buttons.css HTTP/1.1[0m" 304 -
+2026-08-04 12:14:25,811 | INFO |werkzeug |127.0.0.1 - - [04/Aug/2026 12:14:25] "GET / HTTP/1.1" 200 -
+2026-08-04 12:14:25,832 | WARNING |New_Maulakalika_Suppliers |404 Page Not Found
+2026-08-04 12:14:25,833 | INFO |werkzeug |127.0.0.1 - - [04/Aug/2026 12:14:25] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2026-08-04 12:14:25,838 | INFO |werkzeug |127.0.0.1 - - [04/Aug/2026 12:14:25] "[36mGET /static/css/components/forms.css HTTP/1.1[0m" 304 -
+2026-08-04 12:14:25,840 | INFO |werkzeug |127.0.0.1 - - [04/Aug/2026 12:14:25] "[36mGET /static/css/pages/errors.css HTTP/1.1[0m" 304 -
+2026-08-04 12:14:25,844 | INFO |werkzeug |127.0.0.1 - - [04/Aug/2026 12:14:25] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2026-08-04 12:14:25,849 | INFO |werkzeug |127.0.0.1 - - [04/Aug/2026 12:14:25] "[36mGET /static/css/base/variable.css HTTP/1.1[0m" 304 -
+2026-08-04 12:14:25,850 | INFO |werkzeug |127.0.0.1 - - [04/Aug/2026 12:14:25] "[36mGET /static/css/components/navbar.css HTTP/1.1[0m" 304 -
+2026-08-04 12:14:25,854 | INFO |werkzeug |127.0.0.1 - - [04/Aug/2026 12:14:25] "[36mGET /static/css/components/flash.css HTTP/1.1[0m" 304 -
+2026-08-04 12:14:25,860 | INFO |werkzeug |127.0.0.1 - - [04/Aug/2026 12:14:25] "[36mGET /static/css/components/buttons.css HTTP/1.1[0m" 304 -
+2026-08-04 12:15:48,066 | INFO |werkzeug |127.0.0.1 - - [04/Aug/2026 12:15:48] "GET / HTTP/1.1" 200 -
+2026-08-04 12:15:48,104 | INFO |werkzeug |127.0.0.1 - - [04/Aug/2026 12:15:48] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2026-08-04 12:15:48,111 | INFO |werkzeug |127.0.0.1 - - [04/Aug/2026 12:15:48] "[36mGET /static/css/components/forms.css HTTP/1.1[0m" 304 -
+2026-08-04 12:15:48,113 | WARNING |New_Maulakalika_Suppliers |404 Page Not Found
+2026-08-04 12:15:48,113 | INFO |werkzeug |127.0.0.1 - - [04/Aug/2026 12:15:48] "[36mGET /static/css/pages/errors.css HTTP/1.1[0m" 304 -
+2026-08-04 12:15:48,127 | INFO |werkzeug |127.0.0.1 - - [04/Aug/2026 12:15:48] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2026-08-04 12:15:48,133 | INFO |werkzeug |127.0.0.1 - - [04/Aug/2026 12:15:48] "[36mGET /static/css/base/variable.css HTTP/1.1[0m" 304 -
+2026-08-04 12:15:48,136 | INFO |werkzeug |127.0.0.1 - - [04/Aug/2026 12:15:48] "[36mGET /static/css/components/navbar.css HTTP/1.1[0m" 304 -
+2026-08-04 12:15:48,141 | INFO |werkzeug |127.0.0.1 - - [04/Aug/2026 12:15:48] "[36mGET /static/css/components/flash.css HTTP/1.1[0m" 304 -
+2026-08-04 12:15:48,145 | INFO |werkzeug |127.0.0.1 - - [04/Aug/2026 12:15:48] "[36mGET /static/css/components/buttons.css HTTP/1.1[0m" 304 -
+2026-08-04 12:15:49,569 | INFO |werkzeug |127.0.0.1 - - [04/Aug/2026 12:15:49] "GET / HTTP/1.1" 200 -
+2026-08-04 12:15:49,593 | INFO |werkzeug |127.0.0.1 - - [04/Aug/2026 12:15:49] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2026-08-04 12:15:49,594 | INFO |werkzeug |127.0.0.1 - - [04/Aug/2026 12:15:49] "[36mGET /static/css/components/forms.css HTTP/1.1[0m" 304 -
+2026-08-04 12:15:49,598 | WARNING |New_Maulakalika_Suppliers |404 Page Not Found
+2026-08-04 12:15:49,599 | INFO |werkzeug |127.0.0.1 - - [04/Aug/2026 12:15:49] "[36mGET /static/css/pages/errors.css HTTP/1.1[0m" 304 -
+2026-08-04 12:15:49,606 | INFO |werkzeug |127.0.0.1 - - [04/Aug/2026 12:15:49] "[36mGET /static/css/base/variable.css HTTP/1.1[0m" 304 -
+2026-08-04 12:15:49,607 | INFO |werkzeug |127.0.0.1 - - [04/Aug/2026 12:15:49] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2026-08-04 12:15:49,608 | INFO |werkzeug |127.0.0.1 - - [04/Aug/2026 12:15:49] "[36mGET /static/css/components/navbar.css HTTP/1.1[0m" 304 -
+2026-08-04 12:15:49,616 | INFO |werkzeug |127.0.0.1 - - [04/Aug/2026 12:15:49] "[36mGET /static/css/components/flash.css HTTP/1.1[0m" 304 -
+2026-08-04 12:15:49,620 | INFO |werkzeug |127.0.0.1 - - [04/Aug/2026 12:15:49] "[36mGET /static/css/components/buttons.css HTTP/1.1[0m" 304 -
+2026-08-04 12:15:51,297 | INFO |werkzeug |127.0.0.1 - - [04/Aug/2026 12:15:51] "GET /login HTTP/1.1" 200 -
+2026-08-04 12:15:51,317 | WARNING |New_Maulakalika_Suppliers |404 Page Not Found
+2026-08-04 12:15:51,319 | INFO |werkzeug |127.0.0.1 - - [04/Aug/2026 12:15:51] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2026-08-04 12:15:51,320 | INFO |werkzeug |127.0.0.1 - - [04/Aug/2026 12:15:51] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2026-08-04 12:15:51,321 | INFO |werkzeug |127.0.0.1 - - [04/Aug/2026 12:15:51] "[36mGET /static/css/components/forms.css HTTP/1.1[0m" 304 -
+2026-08-04 12:15:51,323 | INFO |werkzeug |127.0.0.1 - - [04/Aug/2026 12:15:51] "[36mGET /static/css/pages/errors.css HTTP/1.1[0m" 304 -
+2026-08-04 12:15:51,330 | INFO |werkzeug |127.0.0.1 - - [04/Aug/2026 12:15:51] "[36mGET /static/css/components/navbar.css HTTP/1.1[0m" 304 -
+2026-08-04 12:15:51,334 | INFO |werkzeug |127.0.0.1 - - [04/Aug/2026 12:15:51] "[36mGET /static/css/base/variable.css HTTP/1.1[0m" 304 -
+2026-08-04 12:15:51,335 | INFO |werkzeug |127.0.0.1 - - [04/Aug/2026 12:15:51] "[36mGET /static/css/components/flash.css HTTP/1.1[0m" 304 -
+2026-08-04 12:15:51,339 | INFO |werkzeug |127.0.0.1 - - [04/Aug/2026 12:15:51] "[36mGET /static/css/components/buttons.css HTTP/1.1[0m" 304 -
+2026-08-04 12:20:44,505 | INFO |werkzeug |127.0.0.1 - - [04/Aug/2026 12:20:44] "GET /login HTTP/1.1" 200 -
+2026-08-04 12:20:44,532 | INFO |werkzeug |127.0.0.1 - - [04/Aug/2026 12:20:44] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2026-08-04 12:20:44,533 | INFO |werkzeug |127.0.0.1 - - [04/Aug/2026 12:20:44] "[36mGET /static/css/components/forms.css HTTP/1.1[0m" 304 -
+2026-08-04 12:20:44,537 | INFO |werkzeug |127.0.0.1 - - [04/Aug/2026 12:20:44] "[36mGET /static/css/pages/errors.css HTTP/1.1[0m" 304 -
+2026-08-04 12:20:44,539 | INFO |werkzeug |127.0.0.1 - - [04/Aug/2026 12:20:44] "[36mGET /static/css/base/variable.css HTTP/1.1[0m" 304 -
+2026-08-04 12:20:44,541 | INFO |werkzeug |127.0.0.1 - - [04/Aug/2026 12:20:44] "[36mGET /static/css/components/navbar.css HTTP/1.1[0m" 304 -
+2026-08-04 12:20:44,543 | INFO |werkzeug |127.0.0.1 - - [04/Aug/2026 12:20:44] "[36mGET /static/css/components/flash.css HTTP/1.1[0m" 304 -
+2026-08-04 12:20:44,546 | INFO |werkzeug |127.0.0.1 - - [04/Aug/2026 12:20:44] "[36mGET /static/css/components/buttons.css HTTP/1.1[0m" 304 -
+2026-08-04 12:20:44,563 | WARNING |New_Maulakalika_Suppliers |404 Page Not Found
+2026-08-04 12:20:44,564 | INFO |werkzeug |127.0.0.1 - - [04/Aug/2026 12:20:44] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2026-08-04 12:20:46,885 | INFO |werkzeug |127.0.0.1 - - [04/Aug/2026 12:20:46] "GET /login HTTP/1.1" 200 -
+2026-08-04 12:20:46,907 | INFO |werkzeug |127.0.0.1 - - [04/Aug/2026 12:20:46] "[36mGET /static/css/components/forms.css HTTP/1.1[0m" 304 -
+2026-08-04 12:20:46,907 | INFO |werkzeug |127.0.0.1 - - [04/Aug/2026 12:20:46] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2026-08-04 12:20:46,918 | WARNING |New_Maulakalika_Suppliers |404 Page Not Found
+2026-08-04 12:20:46,918 | INFO |werkzeug |127.0.0.1 - - [04/Aug/2026 12:20:46] "[36mGET /static/css/pages/errors.css HTTP/1.1[0m" 304 -
+2026-08-04 12:20:46,926 | INFO |werkzeug |127.0.0.1 - - [04/Aug/2026 12:20:46] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2026-08-04 12:20:46,929 | INFO |werkzeug |127.0.0.1 - - [04/Aug/2026 12:20:46] "[36mGET /static/css/base/variable.css HTTP/1.1[0m" 304 -
+2026-08-04 12:20:46,932 | INFO |werkzeug |127.0.0.1 - - [04/Aug/2026 12:20:46] "[36mGET /static/css/components/navbar.css HTTP/1.1[0m" 304 -
+2026-08-04 12:20:46,942 | INFO |werkzeug |127.0.0.1 - - [04/Aug/2026 12:20:46] "[36mGET /static/css/components/flash.css HTTP/1.1[0m" 304 -
+2026-08-04 12:20:46,943 | INFO |werkzeug |127.0.0.1 - - [04/Aug/2026 12:20:46] "[36mGET /static/css/components/buttons.css HTTP/1.1[0m" 304 -
+2026-08-04 12:20:48,121 | INFO |werkzeug |127.0.0.1 - - [04/Aug/2026 12:20:48] "GET /login HTTP/1.1" 200 -
+2026-08-04 12:20:48,142 | INFO |werkzeug |127.0.0.1 - - [04/Aug/2026 12:20:48] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2026-08-04 12:20:48,147 | INFO |werkzeug |127.0.0.1 - - [04/Aug/2026 12:20:48] "[36mGET /static/css/components/forms.css HTTP/1.1[0m" 304 -
+2026-08-04 12:20:48,150 | INFO |werkzeug |127.0.0.1 - - [04/Aug/2026 12:20:48] "[36mGET /static/css/pages/errors.css HTTP/1.1[0m" 304 -
+2026-08-04 12:20:48,154 | INFO |werkzeug |127.0.0.1 - - [04/Aug/2026 12:20:48] "[36mGET /static/css/base/variable.css HTTP/1.1[0m" 304 -
+2026-08-04 12:20:48,155 | INFO |werkzeug |127.0.0.1 - - [04/Aug/2026 12:20:48] "[36mGET /static/css/components/navbar.css HTTP/1.1[0m" 304 -
+2026-08-04 12:20:48,163 | INFO |werkzeug |127.0.0.1 - - [04/Aug/2026 12:20:48] "[36mGET /static/css/components/buttons.css HTTP/1.1[0m" 304 -
+2026-08-04 12:20:48,165 | INFO |werkzeug |127.0.0.1 - - [04/Aug/2026 12:20:48] "[36mGET /static/css/components/flash.css HTTP/1.1[0m" 304 -
+2026-08-04 12:20:48,167 | WARNING |New_Maulakalika_Suppliers |404 Page Not Found
+2026-08-04 12:20:48,172 | INFO |werkzeug |127.0.0.1 - - [04/Aug/2026 12:20:48] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2026-08-04 12:20:48,914 | INFO |werkzeug |127.0.0.1 - - [04/Aug/2026 12:20:48] "GET /login HTTP/1.1" 200 -
+2026-08-04 12:20:48,935 | INFO |werkzeug |127.0.0.1 - - [04/Aug/2026 12:20:48] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2026-08-04 12:20:48,938 | INFO |werkzeug |127.0.0.1 - - [04/Aug/2026 12:20:48] "[36mGET /static/css/components/forms.css HTTP/1.1[0m" 304 -
+2026-08-04 12:20:48,940 | INFO |werkzeug |127.0.0.1 - - [04/Aug/2026 12:20:48] "[36mGET /static/css/pages/errors.css HTTP/1.1[0m" 304 -
+2026-08-04 12:20:48,943 | INFO |werkzeug |127.0.0.1 - - [04/Aug/2026 12:20:48] "[36mGET /static/css/base/variable.css HTTP/1.1[0m" 304 -
+2026-08-04 12:20:48,947 | INFO |werkzeug |127.0.0.1 - - [04/Aug/2026 12:20:48] "[36mGET /static/css/components/flash.css HTTP/1.1[0m" 304 -
+2026-08-04 12:20:48,947 | INFO |werkzeug |127.0.0.1 - - [04/Aug/2026 12:20:48] "[36mGET /static/css/components/navbar.css HTTP/1.1[0m" 304 -
+2026-08-04 12:20:48,950 | INFO |werkzeug |127.0.0.1 - - [04/Aug/2026 12:20:48] "[36mGET /static/css/components/buttons.css HTTP/1.1[0m" 304 -
+2026-08-04 12:20:48,954 | WARNING |New_Maulakalika_Suppliers |404 Page Not Found
+2026-08-04 12:20:48,964 | INFO |werkzeug |127.0.0.1 - - [04/Aug/2026 12:20:48] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2026-08-04 12:22:16,544 | INFO |werkzeug |127.0.0.1 - - [04/Aug/2026 12:22:16] "GET /login HTTP/1.1" 200 -
+2026-08-04 12:22:16,563 | INFO |werkzeug |127.0.0.1 - - [04/Aug/2026 12:22:16] "GET /static/css/components/forms.css HTTP/1.1" 200 -
+2026-08-04 12:22:16,565 | INFO |werkzeug |127.0.0.1 - - [04/Aug/2026 12:22:16] "GET /static/css/pages/errors.css HTTP/1.1" 200 -
+2026-08-04 12:22:16,566 | INFO |werkzeug |127.0.0.1 - - [04/Aug/2026 12:22:16] "GET /static/css/main.css HTTP/1.1" 200 -
+2026-08-04 12:22:16,581 | INFO |werkzeug |127.0.0.1 - - [04/Aug/2026 12:22:16] "GET /static/css/components/buttons.css HTTP/1.1" 200 -
+2026-08-04 12:22:16,581 | INFO |werkzeug |127.0.0.1 - - [04/Aug/2026 12:22:16] "GET /static/css/components/flash.css HTTP/1.1" 200 -
+2026-08-04 12:22:16,583 | INFO |werkzeug |127.0.0.1 - - [04/Aug/2026 12:22:16] "GET /static/css/base/variable.css HTTP/1.1" 200 -
+2026-08-04 12:22:16,585 | INFO |werkzeug |127.0.0.1 - - [04/Aug/2026 12:22:16] "GET /static/css/components/navbar.css HTTP/1.1" 200 -
+2026-08-04 12:22:16,599 | WARNING |New_Maulakalika_Suppliers |404 Page Not Found
+2026-08-04 12:22:16,600 | INFO |werkzeug |127.0.0.1 - - [04/Aug/2026 12:22:16] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-08-04 12:22:27,229 | INFO |werkzeug |127.0.0.1 - - [04/Aug/2026 12:22:27] "GET / HTTP/1.1" 200 -
+2026-08-04 12:22:27,235 | INFO |werkzeug |127.0.0.1 - - [04/Aug/2026 12:22:27] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2026-08-04 12:22:27,237 | INFO |werkzeug |127.0.0.1 - - [04/Aug/2026 12:22:27] "[36mGET /static/css/components/forms.css HTTP/1.1[0m" 304 -
+2026-08-04 12:22:27,240 | INFO |werkzeug |127.0.0.1 - - [04/Aug/2026 12:22:27] "[36mGET /static/css/pages/errors.css HTTP/1.1[0m" 304 -
+2026-08-04 12:22:27,244 | INFO |werkzeug |127.0.0.1 - - [04/Aug/2026 12:22:27] "[36mGET /static/css/base/variable.css HTTP/1.1[0m" 304 -
+2026-08-04 12:22:27,246 | INFO |werkzeug |127.0.0.1 - - [04/Aug/2026 12:22:27] "[36mGET /static/css/components/navbar.css HTTP/1.1[0m" 304 -
+2026-08-04 12:22:27,249 | INFO |werkzeug |127.0.0.1 - - [04/Aug/2026 12:22:27] "[36mGET /static/css/components/flash.css HTTP/1.1[0m" 304 -
+2026-08-04 12:22:27,250 | INFO |werkzeug |127.0.0.1 - - [04/Aug/2026 12:22:27] "[36mGET /static/css/components/buttons.css HTTP/1.1[0m" 304 -
+2026-08-04 12:22:31,546 | INFO |werkzeug |127.0.0.1 - - [04/Aug/2026 12:22:31] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2026-08-04 12:22:31,556 | INFO |werkzeug |127.0.0.1 - - [04/Aug/2026 12:22:31] "[36mGET /static/css/base/variable.css HTTP/1.1[0m" 304 -
+2026-08-04 12:22:31,560 | INFO |werkzeug |127.0.0.1 - - [04/Aug/2026 12:22:31] "[36mGET /static/css/components/navbar.css HTTP/1.1[0m" 304 -
+2026-08-04 12:22:31,562 | INFO |werkzeug |127.0.0.1 - - [04/Aug/2026 12:22:31] "[36mGET /static/css/components/flash.css HTTP/1.1[0m" 304 -
+2026-08-04 12:22:31,569 | INFO |werkzeug |127.0.0.1 - - [04/Aug/2026 12:22:31] "[36mGET /static/css/components/buttons.css HTTP/1.1[0m" 304 -
+2026-08-04 12:22:31,579 | INFO |werkzeug |127.0.0.1 - - [04/Aug/2026 12:22:31] "[36mGET /static/css/components/forms.css HTTP/1.1[0m" 304 -
+2026-08-04 12:22:31,584 | INFO |werkzeug |127.0.0.1 - - [04/Aug/2026 12:22:31] "[36mGET /static/css/pages/errors.css HTTP/1.1[0m" 304 -
+2026-08-04 12:22:31,785 | WARNING |New_Maulakalika_Suppliers |404 Page Not Found
+2026-08-04 12:22:31,791 | INFO |werkzeug |127.0.0.1 - - [04/Aug/2026 12:22:31] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2026-08-04 12:22:39,756 | INFO |werkzeug |127.0.0.1 - - [04/Aug/2026 12:22:39] "GET / HTTP/1.1" 200 -
+2026-08-04 12:22:39,767 | INFO |werkzeug |127.0.0.1 - - [04/Aug/2026 12:22:39] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2026-08-04 12:22:39,769 | INFO |werkzeug |127.0.0.1 - - [04/Aug/2026 12:22:39] "[36mGET /static/css/components/forms.css HTTP/1.1[0m" 304 -
+2026-08-04 12:22:39,772 | INFO |werkzeug |127.0.0.1 - - [04/Aug/2026 12:22:39] "[36mGET /static/css/pages/errors.css HTTP/1.1[0m" 304 -
+2026-08-04 12:22:39,778 | INFO |werkzeug |127.0.0.1 - - [04/Aug/2026 12:22:39] "[36mGET /static/css/base/variable.css HTTP/1.1[0m" 304 -
+2026-08-04 12:22:39,781 | INFO |werkzeug |127.0.0.1 - - [04/Aug/2026 12:22:39] "[36mGET /static/css/components/flash.css HTTP/1.1[0m" 304 -
+2026-08-04 12:22:39,783 | INFO |werkzeug |127.0.0.1 - - [04/Aug/2026 12:22:39] "[36mGET /static/css/components/navbar.css HTTP/1.1[0m" 304 -
+2026-08-04 12:22:39,786 | INFO |werkzeug |127.0.0.1 - - [04/Aug/2026 12:22:39] "[36mGET /static/css/components/buttons.css HTTP/1.1[0m" 304 -
+2026-08-04 12:22:39,795 | WARNING |New_Maulakalika_Suppliers |404 Page Not Found
+2026-08-04 12:22:39,796 | INFO |werkzeug |127.0.0.1 - - [04/Aug/2026 12:22:39] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2026-08-04 12:27:25,111 | INFO |werkzeug |127.0.0.1 - - [04/Aug/2026 12:27:25] "GET / HTTP/1.1" 200 -
+2026-08-04 12:27:25,127 | INFO |werkzeug |127.0.0.1 - - [04/Aug/2026 12:27:25] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2026-08-04 12:27:25,131 | INFO |werkzeug |127.0.0.1 - - [04/Aug/2026 12:27:25] "[36mGET /static/css/components/forms.css HTTP/1.1[0m" 304 -
+2026-08-04 12:27:25,135 | INFO |werkzeug |127.0.0.1 - - [04/Aug/2026 12:27:25] "[36mGET /static/css/pages/errors.css HTTP/1.1[0m" 304 -
+2026-08-04 12:27:25,146 | INFO |werkzeug |127.0.0.1 - - [04/Aug/2026 12:27:25] "[36mGET /static/css/components/flash.css HTTP/1.1[0m" 304 -
+2026-08-04 12:27:25,149 | INFO |werkzeug |127.0.0.1 - - [04/Aug/2026 12:27:25] "[36mGET /static/css/components/buttons.css HTTP/1.1[0m" 304 -
+2026-08-04 12:27:25,150 | INFO |werkzeug |127.0.0.1 - - [04/Aug/2026 12:27:25] "[36mGET /static/css/components/navbar.css HTTP/1.1[0m" 304 -
+2026-08-04 12:27:25,152 | INFO |werkzeug |127.0.0.1 - - [04/Aug/2026 12:27:25] "[36mGET /static/css/base/variable.css HTTP/1.1[0m" 304 -
+2026-08-04 12:27:25,227 | WARNING |New_Maulakalika_Suppliers |404 Page Not Found
+2026-08-04 12:27:25,228 | INFO |werkzeug |127.0.0.1 - - [04/Aug/2026 12:27:25] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2026-08-04 12:27:36,238 | INFO |werkzeug |127.0.0.1 - - [04/Aug/2026 12:27:36] "GET / HTTP/1.1" 200 -
+2026-08-04 12:27:36,246 | INFO |werkzeug |127.0.0.1 - - [04/Aug/2026 12:27:36] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2026-08-04 12:27:36,248 | INFO |werkzeug |127.0.0.1 - - [04/Aug/2026 12:27:36] "[36mGET /static/css/components/forms.css HTTP/1.1[0m" 304 -
+2026-08-04 12:27:36,252 | INFO |werkzeug |127.0.0.1 - - [04/Aug/2026 12:27:36] "[36mGET /static/css/pages/errors.css HTTP/1.1[0m" 304 -
+2026-08-04 12:27:36,269 | INFO |werkzeug |127.0.0.1 - - [04/Aug/2026 12:27:36] "[36mGET /static/css/base/variable.css HTTP/1.1[0m" 304 -
+2026-08-04 12:27:36,275 | INFO |werkzeug |127.0.0.1 - - [04/Aug/2026 12:27:36] "[36mGET /static/css/components/navbar.css HTTP/1.1[0m" 304 -
+2026-08-04 12:27:36,284 | INFO |werkzeug |127.0.0.1 - - [04/Aug/2026 12:27:36] "[36mGET /static/css/components/flash.css HTTP/1.1[0m" 304 -
+2026-08-04 12:27:36,294 | INFO |werkzeug |127.0.0.1 - - [04/Aug/2026 12:27:36] "[36mGET /static/css/components/buttons.css HTTP/1.1[0m" 304 -
+2026-08-04 12:27:37,719 | INFO |werkzeug |127.0.0.1 - - [04/Aug/2026 12:27:37] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2026-08-04 12:27:37,720 | INFO |werkzeug |127.0.0.1 - - [04/Aug/2026 12:27:37] "[36mGET /static/css/base/variable.css HTTP/1.1[0m" 304 -
+2026-08-04 12:27:37,724 | INFO |werkzeug |127.0.0.1 - - [04/Aug/2026 12:27:37] "[36mGET /static/css/components/navbar.css HTTP/1.1[0m" 304 -
+2026-08-04 12:27:37,729 | INFO |werkzeug |127.0.0.1 - - [04/Aug/2026 12:27:37] "[36mGET /static/css/components/flash.css HTTP/1.1[0m" 304 -
+2026-08-04 12:27:37,736 | INFO |werkzeug |127.0.0.1 - - [04/Aug/2026 12:27:37] "[36mGET /static/css/components/buttons.css HTTP/1.1[0m" 304 -
+2026-08-04 12:27:37,742 | INFO |werkzeug |127.0.0.1 - - [04/Aug/2026 12:27:37] "[36mGET /static/css/components/forms.css HTTP/1.1[0m" 304 -
+2026-08-04 12:27:37,743 | WARNING |New_Maulakalika_Suppliers |404 Page Not Found
+2026-08-04 12:27:37,747 | INFO |werkzeug |127.0.0.1 - - [04/Aug/2026 12:27:37] "[36mGET /static/css/pages/errors.css HTTP/1.1[0m" 304 -
+2026-08-04 12:27:37,756 | INFO |werkzeug |127.0.0.1 - - [04/Aug/2026 12:27:37] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2026-08-04 12:27:39,981 | INFO |werkzeug |127.0.0.1 - - [04/Aug/2026 12:27:39] "GET / HTTP/1.1" 200 -
+2026-08-04 12:27:39,990 | INFO |werkzeug |127.0.0.1 - - [04/Aug/2026 12:27:39] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2026-08-04 12:27:39,995 | INFO |werkzeug |127.0.0.1 - - [04/Aug/2026 12:27:39] "[36mGET /static/css/pages/errors.css HTTP/1.1[0m" 304 -
+2026-08-04 12:27:39,997 | INFO |werkzeug |127.0.0.1 - - [04/Aug/2026 12:27:39] "[36mGET /static/css/components/forms.css HTTP/1.1[0m" 304 -
+2026-08-04 12:27:40,002 | INFO |werkzeug |127.0.0.1 - - [04/Aug/2026 12:27:40] "[36mGET /static/css/base/variable.css HTTP/1.1[0m" 304 -
+2026-08-04 12:27:40,005 | INFO |werkzeug |127.0.0.1 - - [04/Aug/2026 12:27:40] "[36mGET /static/css/components/navbar.css HTTP/1.1[0m" 304 -
+2026-08-04 12:27:40,013 | INFO |werkzeug |127.0.0.1 - - [04/Aug/2026 12:27:40] "[36mGET /static/css/components/flash.css HTTP/1.1[0m" 304 -
+2026-08-04 12:27:40,017 | WARNING |New_Maulakalika_Suppliers |404 Page Not Found
+2026-08-04 12:27:40,017 | INFO |werkzeug |127.0.0.1 - - [04/Aug/2026 12:27:40] "[36mGET /static/css/components/buttons.css HTTP/1.1[0m" 304 -
+2026-08-04 12:27:40,024 | INFO |werkzeug |127.0.0.1 - - [04/Aug/2026 12:27:40] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2026-08-04 12:31:11,377 | INFO |werkzeug |127.0.0.1 - - [04/Aug/2026 12:31:11] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2026-08-04 12:31:11,380 | INFO |werkzeug |127.0.0.1 - - [04/Aug/2026 12:31:11] "[36mGET /static/css/base/variable.css HTTP/1.1[0m" 304 -
+2026-08-04 12:31:11,383 | INFO |werkzeug |127.0.0.1 - - [04/Aug/2026 12:31:11] "[36mGET /static/css/components/navbar.css HTTP/1.1[0m" 304 -
+2026-08-04 12:31:11,387 | INFO |werkzeug |127.0.0.1 - - [04/Aug/2026 12:31:11] "[36mGET /static/css/components/flash.css HTTP/1.1[0m" 304 -
+2026-08-04 12:31:11,392 | INFO |werkzeug |127.0.0.1 - - [04/Aug/2026 12:31:11] "[36mGET /static/css/components/buttons.css HTTP/1.1[0m" 304 -
+2026-08-04 12:31:11,395 | INFO |werkzeug |127.0.0.1 - - [04/Aug/2026 12:31:11] "[36mGET /static/css/components/forms.css HTTP/1.1[0m" 304 -
+2026-08-04 12:31:11,397 | INFO |werkzeug |127.0.0.1 - - [04/Aug/2026 12:31:11] "[36mGET /static/css/pages/errors.css HTTP/1.1[0m" 304 -
+2026-08-04 12:31:11,428 | WARNING |New_Maulakalika_Suppliers |404 Page Not Found
+2026-08-04 12:31:11,429 | INFO |werkzeug |127.0.0.1 - - [04/Aug/2026 12:31:11] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2026-08-04 12:31:18,875 | INFO |werkzeug |127.0.0.1 - - [04/Aug/2026 12:31:18] "GET / HTTP/1.1" 200 -
+2026-08-04 12:31:18,884 | INFO |werkzeug |127.0.0.1 - - [04/Aug/2026 12:31:18] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2026-08-04 12:31:18,892 | INFO |werkzeug |127.0.0.1 - - [04/Aug/2026 12:31:18] "[36mGET /static/css/pages/errors.css HTTP/1.1[0m" 304 -
+2026-08-04 12:31:18,894 | INFO |werkzeug |127.0.0.1 - - [04/Aug/2026 12:31:18] "[36mGET /static/css/components/forms.css HTTP/1.1[0m" 304 -
+2026-08-04 12:31:18,899 | INFO |werkzeug |127.0.0.1 - - [04/Aug/2026 12:31:18] "[36mGET /static/css/base/variable.css HTTP/1.1[0m" 304 -
+2026-08-04 12:31:18,899 | INFO |werkzeug |127.0.0.1 - - [04/Aug/2026 12:31:18] "[36mGET /static/css/components/navbar.css HTTP/1.1[0m" 304 -
+2026-08-04 12:31:18,906 | INFO |werkzeug |127.0.0.1 - - [04/Aug/2026 12:31:18] "[36mGET /static/css/components/buttons.css HTTP/1.1[0m" 304 -
+2026-08-04 12:31:18,906 | INFO |werkzeug |127.0.0.1 - - [04/Aug/2026 12:31:18] "[36mGET /static/css/components/flash.css HTTP/1.1[0m" 304 -
+2026-08-04 12:31:18,922 | WARNING |New_Maulakalika_Suppliers |404 Page Not Found
+2026-08-04 12:31:18,925 | INFO |werkzeug |127.0.0.1 - - [04/Aug/2026 12:31:18] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2026-08-04 12:33:03,634 | INFO |werkzeug |127.0.0.1 - - [04/Aug/2026 12:33:03] "GET / HTTP/1.1" 200 -
+2026-08-04 12:33:03,642 | INFO |werkzeug |127.0.0.1 - - [04/Aug/2026 12:33:03] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2026-08-04 12:33:03,646 | INFO |werkzeug |127.0.0.1 - - [04/Aug/2026 12:33:03] "[36mGET /static/css/components/forms.css HTTP/1.1[0m" 304 -
+2026-08-04 12:33:03,648 | INFO |werkzeug |127.0.0.1 - - [04/Aug/2026 12:33:03] "[36mGET /static/css/pages/errors.css HTTP/1.1[0m" 304 -
+2026-08-04 12:33:03,656 | INFO |werkzeug |127.0.0.1 - - [04/Aug/2026 12:33:03] "[36mGET /static/css/base/variable.css HTTP/1.1[0m" 304 -
+2026-08-04 12:33:03,660 | INFO |werkzeug |127.0.0.1 - - [04/Aug/2026 12:33:03] "[36mGET /static/css/components/navbar.css HTTP/1.1[0m" 304 -
+2026-08-04 12:33:03,661 | INFO |werkzeug |127.0.0.1 - - [04/Aug/2026 12:33:03] "[36mGET /static/css/components/flash.css HTTP/1.1[0m" 304 -
+2026-08-04 12:33:03,663 | INFO |werkzeug |127.0.0.1 - - [04/Aug/2026 12:33:03] "[36mGET /static/css/components/buttons.css HTTP/1.1[0m" 304 -
+2026-08-04 12:33:03,707 | WARNING |New_Maulakalika_Suppliers |404 Page Not Found
+2026-08-04 12:33:03,709 | INFO |werkzeug |127.0.0.1 - - [04/Aug/2026 12:33:03] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2026-08-04 12:33:32,426 | INFO |werkzeug |127.0.0.1 - - [04/Aug/2026 12:33:32] "GET / HTTP/1.1" 200 -
+2026-08-04 12:33:32,437 | INFO |werkzeug |127.0.0.1 - - [04/Aug/2026 12:33:32] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2026-08-04 12:33:32,441 | INFO |werkzeug |127.0.0.1 - - [04/Aug/2026 12:33:32] "[36mGET /static/css/components/forms.css HTTP/1.1[0m" 304 -
+2026-08-04 12:33:32,444 | INFO |werkzeug |127.0.0.1 - - [04/Aug/2026 12:33:32] "[36mGET /static/css/pages/errors.css HTTP/1.1[0m" 304 -
+2026-08-04 12:33:32,446 | INFO |werkzeug |127.0.0.1 - - [04/Aug/2026 12:33:32] "[36mGET /static/css/base/variable.css HTTP/1.1[0m" 304 -
+2026-08-04 12:33:32,451 | INFO |werkzeug |127.0.0.1 - - [04/Aug/2026 12:33:32] "[36mGET /static/css/components/flash.css HTTP/1.1[0m" 304 -
+2026-08-04 12:33:32,453 | INFO |werkzeug |127.0.0.1 - - [04/Aug/2026 12:33:32] "[36mGET /static/css/components/navbar.css HTTP/1.1[0m" 304 -
+2026-08-04 12:33:32,456 | INFO |werkzeug |127.0.0.1 - - [04/Aug/2026 12:33:32] "[36mGET /static/css/components/buttons.css HTTP/1.1[0m" 304 -
+2026-08-04 12:33:32,494 | WARNING |New_Maulakalika_Suppliers |404 Page Not Found
+2026-08-04 12:33:32,502 | INFO |werkzeug |127.0.0.1 - - [04/Aug/2026 12:33:32] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2026-08-04 12:34:05,306 | INFO |werkzeug |127.0.0.1 - - [04/Aug/2026 12:34:05] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2026-08-04 12:34:05,307 | INFO |werkzeug |127.0.0.1 - - [04/Aug/2026 12:34:05] "[36mGET /static/css/base/variable.css HTTP/1.1[0m" 304 -
+2026-08-04 12:34:05,310 | INFO |werkzeug |127.0.0.1 - - [04/Aug/2026 12:34:05] "[36mGET /static/css/components/navbar.css HTTP/1.1[0m" 304 -
+2026-08-04 12:34:05,315 | INFO |werkzeug |127.0.0.1 - - [04/Aug/2026 12:34:05] "[36mGET /static/css/components/buttons.css HTTP/1.1[0m" 304 -
+2026-08-04 12:34:05,319 | INFO |werkzeug |127.0.0.1 - - [04/Aug/2026 12:34:05] "[36mGET /static/css/components/flash.css HTTP/1.1[0m" 304 -
+2026-08-04 12:34:05,324 | INFO |werkzeug |127.0.0.1 - - [04/Aug/2026 12:34:05] "[36mGET /static/css/components/forms.css HTTP/1.1[0m" 304 -
+2026-08-04 12:34:05,325 | INFO |werkzeug |127.0.0.1 - - [04/Aug/2026 12:34:05] "[36mGET /static/css/pages/errors.css HTTP/1.1[0m" 304 -
+2026-08-04 12:34:05,347 | WARNING |New_Maulakalika_Suppliers |404 Page Not Found
+2026-08-04 12:34:05,348 | INFO |werkzeug |127.0.0.1 - - [04/Aug/2026 12:34:05] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2026-08-04 12:34:12,898 | INFO |werkzeug |127.0.0.1 - - [04/Aug/2026 12:34:12] "GET / HTTP/1.1" 200 -
+2026-08-04 12:34:12,905 | INFO |werkzeug |127.0.0.1 - - [04/Aug/2026 12:34:12] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2026-08-04 12:34:12,909 | INFO |werkzeug |127.0.0.1 - - [04/Aug/2026 12:34:12] "[36mGET /static/css/components/forms.css HTTP/1.1[0m" 304 -
+2026-08-04 12:34:12,910 | INFO |werkzeug |127.0.0.1 - - [04/Aug/2026 12:34:12] "[36mGET /static/css/pages/errors.css HTTP/1.1[0m" 304 -
+2026-08-04 12:34:12,916 | INFO |werkzeug |127.0.0.1 - - [04/Aug/2026 12:34:12] "[36mGET /static/css/base/variable.css HTTP/1.1[0m" 304 -
+2026-08-04 12:34:12,919 | INFO |werkzeug |127.0.0.1 - - [04/Aug/2026 12:34:12] "[36mGET /static/css/components/navbar.css HTTP/1.1[0m" 304 -
+2026-08-04 12:34:12,920 | INFO |werkzeug |127.0.0.1 - - [04/Aug/2026 12:34:12] "[36mGET /static/css/components/flash.css HTTP/1.1[0m" 304 -
+2026-08-04 12:34:12,923 | INFO |werkzeug |127.0.0.1 - - [04/Aug/2026 12:34:12] "[36mGET /static/css/components/buttons.css HTTP/1.1[0m" 304 -
+2026-08-04 12:34:12,940 | WARNING |New_Maulakalika_Suppliers |404 Page Not Found
+2026-08-04 12:34:12,941 | INFO |werkzeug |127.0.0.1 - - [04/Aug/2026 12:34:12] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -

@@ -27,6 +27,9 @@ from app.extensions import (
     mail,
     limiter
 )
+# Import Security Headers
+from app.security.headers import add_security_headers
+
 # Import Models
 import app.models
 
@@ -67,6 +70,11 @@ def create_app():
     @login_manager.user_loader
     def load_user(user_id):
         return db.session.get(User, int(user_id))
+
+    @app.after_request
+    def apply_security_headers(response):
+
+        return add_security_headers(response)
 
 
     return app
