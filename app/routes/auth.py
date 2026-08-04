@@ -5,7 +5,7 @@ from flask import (
     render_template,
     url_for
 )
-
+from app.extensions import limiter
 from app.forms.login_form import LoginForm
 from app.services.auth_service import authenticate_user
 
@@ -21,6 +21,9 @@ from app.services.audit_service import(
 auth = Blueprint("auth", __name__)
 
 @auth.route("/login", methods=["GET", "POST"])
+@limiter.limit(
+    "5 per minute"
+)
 def login():
 
     form = LoginForm()

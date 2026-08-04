@@ -1,7 +1,7 @@
 from flask import render_template
 from app.logging_config import logger
 
-def register_error_handlers(app):
+def register_general_error_handlers(app):
 
     @app.errorhandler(404)
     def page_not_found(error):

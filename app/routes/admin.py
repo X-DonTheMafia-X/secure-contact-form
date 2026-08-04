@@ -5,6 +5,8 @@ from flask import (
 
 from flask_login import login_required
 
+from app.extensions import limiter
+
 from app.security.authorization import(
     admin_required
 )
@@ -17,6 +19,9 @@ admin = Blueprint(
 
 @admin.route("/")
 @login_required
+@limiter.limit(
+    "30 per minute"
+)
 @admin_required
 def dashboard():
 

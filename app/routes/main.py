@@ -18,10 +18,14 @@ from app.models.submission import Submission
 
 # Import extensions
 from app.extensions import db
+from app.extensions import limiter
 
 main = Blueprint("main", __name__)
 
 @main.route("/", methods=["GET", "POST"])
+@limiter.limit(
+    "10 per minute"
+)
 
 def home():
 
