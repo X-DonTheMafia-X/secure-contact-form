@@ -10,7 +10,8 @@ from wtforms.validators import(
     Email,
     Length
 )
-
+from flask_wtf.file import FileField
+from flask_wtf.file import FileAllowed
 class ContactForm(FlaskForm):
 
     name = StringField(
@@ -36,6 +37,16 @@ class ContactForm(FlaskForm):
             DataRequired(),
             Length(max=1000)
         ]
+    )
+
+    attachment = FileField(
+        "Attachment",
+        validators=[
+            FileAllowed(
+                ["pdf", "png", "jpg", "jpeg", "txt"],
+                "Unsupported file type.",
+            )
+        ],
     )
 
     submit = SubmitField("Send")

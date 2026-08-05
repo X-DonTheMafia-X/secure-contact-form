@@ -1,6 +1,8 @@
 import os
 from dotenv import load_dotenv
 
+from pathlib import Path
+
 load_dotenv()
 
 class Config:
@@ -30,6 +32,17 @@ class Config:
         "MAIL_DEFAULT_SENDER"
     )
 
+    BASE_DIR = Path(__file__).resolve().parent
+    UPLOAD_FOLDER = BASE_DIR / "uploads"
+    MAX_CONTENT_LENGTH = 5 * 1024 * 1024
+    ALLOWED_UPLOAD_EXTENSIONS = {
+        ".pdf",
+        ".png",
+        ".jpg",
+        ".jpeg",
+        ".txt"
+}
+
 class DevelopmentConfig(Config):
     DEBUG = True
 
@@ -39,3 +52,4 @@ class TestingConfig(Config):
 
 class ProductionConfig(Config):
     DEBUG = False
+

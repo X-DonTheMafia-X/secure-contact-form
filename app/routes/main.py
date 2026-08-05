@@ -36,7 +36,8 @@ def home():
         create_submission(
             name=form.name.data,
             email=form.email.data,
-            message=form.message.data
+            message=form.message.data,
+            attachment=form.attachment.data
         )
 
         flash(

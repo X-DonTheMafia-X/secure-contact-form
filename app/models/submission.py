@@ -28,3 +28,9 @@ class Submission(db.Model):
         db.Text(1000),
         nullable=False
     )
+
+    attachment = db.Column(
+        db.String(255),
+        nullable=True
+    )
+    

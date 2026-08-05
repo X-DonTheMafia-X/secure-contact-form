@@ -9,7 +9,7 @@ Home
 <section>
     <h2>Order Now:</h2>
 
-    <form method="POST">
+    <form method="POST" enctype="multipart/form-data">
 
         {{ form.hidden_tag() }}
 
@@ -31,6 +31,14 @@ Home
             {{ form.message.label }}
             {{ form.message(class="form-input") }}
             {% set field = form.message %}
+            {% include "components/form_errors.html" %}
+        </p>
+
+        <p>
+            {{ form.attachment.label }}
+            {{ form.attachment(class="form-attachment") }}
+
+            {% set field = form.attachment %}
             {% include "components/form_errors.html" %}
         </p>
 
