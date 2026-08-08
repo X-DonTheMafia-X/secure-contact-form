@@ -24,6 +24,7 @@ MarkupSafe==3.0.3
 ordered-set==4.1.0
 packaging==26.2
 python-dotenv==1.2.2
+python-magic-bin==0.4.14
 requests==2.34.2
 SQLAlchemy==2.0.51
 typing_extensions==4.16.0

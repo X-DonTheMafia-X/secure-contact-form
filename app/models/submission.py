@@ -5,6 +5,13 @@ class Submission(db.Model):
     # Tells SQLAlchemy what the database table should be called
     __tablename__ = "submissions"
 
+    # Date and Tme
+    created_at = db.Column(
+        db.DateTime(timezone=True),
+        nullable=False,
+        default=lambda: datetime.now(timezone.utc)
+    )
+
     # ID
     id = db.Column(
         db.Integer,
@@ -34,10 +41,16 @@ class Submission(db.Model):
         nullable=True
     )
 
-    # Date and Tme
-    created_at = db.Column(
-        db.DateTime(timezone=True),
-        nullable=False,
-        default=lambda: datetime.now(timezone.utc)
+    attachment_sha256 = db.Column(
+        db.String(64),
+        nullable=True,
+        unique=False
     )
+
+    attachment_mime_type = db.Column(
+        db.String(100),
+        nullable = True
+    )
+
+
     

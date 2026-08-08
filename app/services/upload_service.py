@@ -4,6 +4,11 @@ from uuid import uuid4
 from flask import current_app
 from werkzeug.utils import secure_filename
 
+from app.security.file_validattion import (
+    validate_mime_type,
+    calculate_sha256
+)
+import magic
 
 def save_uploaded_file(file_storage):
     """
@@ -11,6 +16,14 @@ def save_uploaded_file(file_storage):
     
     Returns the generated filename, or None if no file was uploaded.
     """
+
+    if not validate_mime_type(file_storage):
+        raise ValueError(
+            "Unsupported file content."
+        )
+
+    file_hash = calculate_sha256(file_storage)
+
 
     if not file_storage or not file_storage.filename:
         return None
@@ -46,4 +59,11 @@ def save_uploaded_file(file_storage):
 
     file_storage.save(upload_path)
 
-    return filename
+    return {
+        "filename": filename,
+        "sha256": file_hash,
+        "mime_type": magic.from_buffer(
+            file_storage.stream.read(2048),
+            mime=True
+        )
+    }

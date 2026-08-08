@@ -1,0 +1,183 @@
+.shopping-card {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 1.5rem;
+    padding: 3rem 1.5rem;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.img-card {
+    position: relative;
+    background: #ffffff;
+    border: 1px solid rgba(0, 0, 0, 0.06);
+    border-radius: 16px;
+    padding: 0;
+    overflow: hidden;
+    text-align: center;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+    transition: transform 0.35s cubic-bezier(0.22, 1, 0.36, 1),
+                box-shadow 0.35s ease,
+                border-color 0.35s ease;
+
+    opacity: 0;
+    transform: translateY(24px);
+    animation: card-in 0.6s cubic-bezier(0.22, 1, 0.36, 1) forwards;
+}
+
+/* Staggered entrance so cards don't all pop at once */
+.img-card:nth-child(1)  { animation-delay: 0.05s; }
+.img-card:nth-child(2)  { animation-delay: 0.1s; }
+.img-card:nth-child(3)  { animation-delay: 0.15s; }
+.img-card:nth-child(4)  { animation-delay: 0.2s; }
+.img-card:nth-child(5)  { animation-delay: 0.25s; }
+.img-card:nth-child(6)  { animation-delay: 0.3s; }
+.img-card:nth-child(7)  { animation-delay: 0.35s; }
+.img-card:nth-child(8)  { animation-delay: 0.4s; }
+.img-card:nth-child(9)  { animation-delay: 0.45s; }
+.img-card:nth-child(10) { animation-delay: 0.5s; }
+
+@keyframes card-in {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Image placeholder — this is where your product photo will go later.
+   Right now it's a soft animated shimmer so the grid still feels alive. */
+.img-card::before {
+    content: "";
+    display: block;
+    width: 100%;
+    aspect-ratio: 4 / 3;
+    background: linear-gradient(
+        110deg,
+        #ececec 8%,
+        #f7f7f7 18%,
+        #ececec 33%
+    );
+    background-size: 200% 100%;
+    animation: shimmer 2.2s linear infinite;
+}
+
+@keyframes shimmer {
+    to { background-position-x: -200%; }
+}
+
+/* Glowing gradient ring that fades in on hover */
+.img-card::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    border-radius: 16px;
+    padding: 2px;
+    background: linear-gradient(
+        135deg,
+        var(--color-primary, #2c7a4b),
+        #6fd8a3,
+        var(--color-primary, #2c7a4b)
+    );
+    -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;
+    mask-composite: exclude;
+    opacity: 0;
+    transition: opacity 0.35s ease;
+    pointer-events: none;
+}
+
+.img-card:hover {
+    transform: translateY(-8px) scale(1.015);
+    box-shadow: 0 16px 32px rgba(44, 122, 75, 0.18);
+}
+
+.img-card:hover::after {
+    opacity: 1;
+}
+
+.img-card p {
+    margin: 0;
+    padding: 1.25rem 1.25rem 1.5rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: var(--color-text, #333);
+}
+
+.img-card a,
+.img-card a:link,
+.img-card a:visited,
+.img-card a:hover,
+.img-card a:active {
+    text-decoration: none;
+    color: inherit;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.1rem;
+}
+
+.img-card h3,
+.img-card h3 a,
+.img-card a h3 {
+    color: #fff !important;
+}
+
+.img-card h3 {
+    position: relative;
+    display: inline-block;
+    width: fit-content;
+    max-width: 85%;
+    box-sizing: border-box;
+    overflow: hidden;
+    background: var(--color-primary, #2c7a4b);
+    font-size: 0.85rem;
+    font-weight: 600;
+    text-align: center;
+    padding: 0.55rem 1.4rem;
+    border-radius: 999px;
+    margin: 0;
+    transition: transform 0.2s ease, box-shadow 0.2s ease, background 0.2s ease;
+}
+
+/* Light sweep across each button on hover */
+.img-card h3::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -60%;
+    width: 40%;
+    height: 100%;
+    background: linear-gradient(
+        115deg,
+        transparent,
+        rgba(255, 255, 255, 0.55),
+        transparent
+    );
+    transform: skewX(-20deg);
+    transition: left 0.6s ease;
+}
+
+.img-card:hover h3::before {
+    left: 130%;
+}
+
+.img-card h3:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 14px rgba(44, 122, 75, 0.35);
+    background: #246a41;
+}
+
+/* Respect users who'd rather not see motion */
+@media (prefers-reduced-motion: reduce) {
+    .img-card,
+    .img-card::before,
+    .img-card::after,
+    .img-card h3::before {
+        animation: none;
+        transition: none;
+    }
+    .img-card {
+        opacity: 1;
+        transform: none;
+    }
+}
