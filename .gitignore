@@ -22,3 +22,6 @@ instance/
 
 # Uploads
 uploads/
+
+#logs
+logs/
