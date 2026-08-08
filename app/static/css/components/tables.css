@@ -1,0 +1,56 @@
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 2rem 0;
+    background: var(--card-bg, #fff);
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+    overflow: hidden;
+    font-size: 0.95rem;
+}
+
+thead {
+    background: var(--color-primary, #2c7a4b);
+    color: #fff;
+}
+
+th {
+    text-align: left;
+    padding: 0.9rem 1rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    letter-spacing: 0.03em;
+}
+
+td {
+    padding: 0.85rem 1rem;
+    border-bottom: 1px solid var(--color-border, #e5e5e5);
+    color: var(--text-color, #333);
+    vertical-align: top;
+}
+
+tbody tr:last-child td {
+    border-bottom: none;
+}
+
+tbody tr:hover {
+    background: var(--row-hover, #f7f7f7);
+}
+
+td a {
+    color: var(--color-primary, #2c7a4b);
+    font-weight: 500;
+    text-decoration: none;
+}
+
+td a:hover {
+    text-decoration: underline;
+}
+
+/* Wrap long messages instead of stretching the table */
+td:nth-child(4) {
+    max-width: 320px;
+    white-space: normal;
+    word-break: break-word;
+}

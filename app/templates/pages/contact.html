@@ -1,0 +1,53 @@
+{% extends "base/base.html" %}
+{% block title%}
+
+Home
+
+{% endblock %}
+{% block content %}
+
+<section>
+    <br>
+    <h2>Contact Us:</h2>
+
+    <form method="POST" enctype="multipart/form-data">
+
+        {{ form.hidden_tag() }}
+
+        <p>
+            {{ form.name.label }}
+            {{ form.name(class="form-input") }}
+            {% set field = form.name %}
+            {% include "components/form_errors.html" %}
+        </p>
+
+        <p>
+            {{ form.email.label }}
+            {{ form.email(class="form-input") }}
+            {% set field = form.email %}
+            {% include "components/form_errors.html" %}
+        </p>
+
+        <p>
+            {{ form.message.label }}
+            {{ form.message(placeholder="Make an order, ask about liquors, events or reservations.", class="form-input")
+            }}
+            {% set field = form.message %}
+            {% include "components/form_errors.html" %}
+        </p>
+
+        <p>
+            {{ form.attachment.label }}
+            {{ form.attachment(class="form-attachment") }}
+
+            {% set field = form.attachment %}
+            {% include "components/form_errors.html" %}
+        </p>
+
+        <p>
+            {{ form.submit(class="form-submit") }}
+        </p>
+
+    </form>
+</section>
+{% endblock %}

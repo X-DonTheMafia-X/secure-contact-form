@@ -6,6 +6,7 @@
     padding: var(--spacing-medium);
     background: var(--color-primary);
     color: white;
+    font-size: x-large;
 
 }
 
@@ -14,6 +15,7 @@
     display: flex;
     gap: var(--spacing-medium);
     list-style: none;
+    font-size: large;
 
 }
 

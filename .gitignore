@@ -19,3 +19,6 @@ instance/
 
 # IDE
 .vscode/
+
+# Uploads
+uploads/

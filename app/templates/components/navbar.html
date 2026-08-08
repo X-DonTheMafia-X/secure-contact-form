@@ -4,7 +4,8 @@
     </div>
     <ul class="navbar__links">
         <li><a href="{{url_for('main.home')}}">Home</a></li>
-        <li><a href="{{url_for('main.home')}}">Contact</a></li>
+        <li><a href="{{url_for('main.menu')}}">Menu</a></li>
+        <li><a href="{{url_for('main.contact')}}">Contact</a></li>
 
         {% if current_user.is_authenticated %}
 

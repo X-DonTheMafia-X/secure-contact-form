@@ -10,6 +10,7 @@ import app.logging_config
 from app.routes.main import main
 from app.routes.auth import auth
 from app.routes.admin import admin
+from app.routes.downloads import downloads
 
 # Import Error Handler
 from app.errors import register_general_error_handlers
@@ -59,11 +60,13 @@ def create_app():
     app.register_blueprint(main)
     app.register_blueprint(auth)
     app.register_blueprint(admin)
+    app.register_blueprint(downloads)
     
 
     # Register error handler blueprints
     register_general_error_handlers(app)
     register_rate_limit_error_handlers(app)
+
     
 
     # Create User Loader for Authorization
@@ -71,6 +74,7 @@ def create_app():
     def load_user(user_id):
         return db.session.get(User, int(user_id))
 
+    # Apply security headers after request
     @app.after_request
     def apply_security_headers(response):
 

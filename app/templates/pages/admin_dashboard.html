@@ -17,5 +17,46 @@ Admin Dashboard
 <p>
     This page is only accessible to administrators.
 </p>
+{% if submissions %}
+<table>
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Email</th>
+            <th>Message</th>
+            <th>Date</th>
+            <th>Document</th>
+        </tr>
+    </thead>
+    <tbody>
+
+        {% for submission in submissions %}
+        <tr>
+            <td>{{ submission.id }}</td>
+            <td>{{ submission.name }}</td>
+            <td>{{ submission.email }}</td>
+            <td>{{ submission.message }}</td>
+            <td>{{ submission.local_created_at.strftime("%B %d, %Y at %I:%M %p") }}</td>
+            {% if submission.attachment %}
+            <td>
+                <a href="{{url_for('downloads.download',submission_id=submission.id)}}">
+                    Download
+                </a>
+            </td>
+            {% else %}
+            <td>N/A</td>
+
+            {% endif %}
+        </tr>
+        {% endfor %}
+
+    </tbody>
+</table>
+{% else %}
+<p>
+    <strong>NO SUBMISSIONS YET :(</strong>
+</p>
+{% endif %}
 
 {% endblock %}

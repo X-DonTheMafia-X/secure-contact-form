@@ -29,6 +29,16 @@ main = Blueprint("main", __name__)
 
 def home():
 
+    return render_template(
+        "pages/home.html",
+        )
+
+@main.route("/contact", methods=["GET", "POST"])
+@limiter.limit(
+    "10 per minute"
+)
+def contact():
+
     form = ContactForm()
 
     if form.validate_on_submit():
@@ -45,13 +55,19 @@ def home():
             "success"
         )
 
-        return redirect(url_for("main.home"))
+        return redirect(url_for("main.contact"))
 
     return render_template(
-        "pages/home.html",
+        "pages/contact.html",
         form=form
         )
-# Tesing 500 code error page
-# @main.route("/test-error")
-# def test_error():
-#     raise RuntimeError("Testing the 500 error handler")
+@main.route("/menu", methods=["GET", "POST"])
+@limiter.limit(
+    "10 per minute"
+)
+
+def menu():
+
+    return render_template(
+        "pages/menu.html",
+        )
