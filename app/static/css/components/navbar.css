@@ -1,5 +1,4 @@
-.navbar{
-
+.navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -7,25 +6,69 @@
     background: var(--color-primary);
     color: white;
     font-size: x-large;
-
+    flex-wrap: wrap;
+    position: relative;
 }
 
-.navbar__links{
+.navbar__brand a,
+.navbar__brand a:visited {
+    color: white;
+    text-decoration: none;
+}
 
+.navbar__brand a:hover {
+    text-decoration: none;
+}
+
+/* Hidden on desktop by default */
+.navbar__toggle {
+    display: none;
+    background: none;
+    border: none;
+    color: white;
+    font-size: x-large;
+    cursor: pointer;
+}
+
+.navbar__links {
     display: flex;
     gap: var(--spacing-medium);
     list-style: none;
     font-size: large;
-
 }
 
-.navbar__links a{
-
+.navbar__links a,
+.navbar__links a:visited {
     color: white;
     text-decoration: none;
-     
 }
 
-.navbar__links a:hover{
+.navbar__links a:hover {
     text-decoration: underline;
+    color: white;
+}
+
+/* Mobile styles */
+@media (max-width: 768px) {
+    .navbar {
+        align-items: center;
+        font-size: large;
+    }
+
+    .navbar__toggle {
+        display: block; /* only shows on mobile */
+    }
+
+    .navbar__links {
+        display: none; /* hidden until toggled */
+        flex-direction: column;
+        width: 100%;
+        gap: calc(var(--spacing-medium) / 2);
+        font-size: medium;
+        margin-top: var(--spacing-medium);
+    }
+
+    .navbar__links.active {
+        display: flex; /* shown when JS adds this class */
+    }
 }

@@ -18,7 +18,7 @@ def send_confirmation_email(submission):
         "We've successfully received your message"
         " and will respond as soon as possible.\n\n"
         "Regards,\n"
-        "New Maulakalika Supppliers"
+        "YOUR BUSINESS NAME"
     )
 
     mail.send(message)
@@ -29,7 +29,7 @@ def send_admin_notification(submission):
     """
 
     message = Message(
-        subject="New Submission for New Maulakalika Suppliers",
+        subject="New Submission for YOUR BUSINESS NAME",
         recipients=[
             current_app.config["MAIL_DEFAULT_SENDER"]
             ]
