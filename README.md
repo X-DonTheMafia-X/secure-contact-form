@@ -16,8 +16,13 @@ Requirements:
 Before you go further make sure to use a virtual environment to prevent conflicts and download all the required files in requirements.txt file before proceeding.
 
 step 1: Open this folder in bash and activate your Virtual Environment (Windows: source .venv/Scripts/activate Linux: source .venv/bins/activate)
+
 step 2: Rename secure-contact-app/.env.example to .env
-step 3: Fill your own environment variable and save it
+
+step 3: Fill your own environment variable and save it, now open your bash in the root folder of this project and type:
+- flask migrate -m "Initial Migration"
+- flask db upgrade
+
 step 4: open bash and enter:
                             python run.py to test the application
                             login username and password for admin: admin and Ba911nana
