@@ -25,15 +25,15 @@ def create_submission(name, email, message, attachment=None):
     ).first()
 
 
-    if existing:
-        attachment_filename = existing.attachment
-        attachment_sha256 = existing.attachment_sha256
-        attachment_mime_type = existing.attachment_mime_type
+        if existing:
+            attachment_filename = existing.attachment
+            attachment_sha256 = existing.attachment_sha256
+            attachment_mime_type = existing.attachment_mime_type
 
-    else:
-        attachment_filename = attachment_info["filename"]
-        attachment_sha256 = attachment_info["sha256"]
-        attachment_mime_type = attachment_info["mime_type"]
+        else:
+            attachment_filename = attachment_info["filename"]
+            attachment_sha256 = attachment_info["sha256"]
+            attachment_mime_type = attachment_info["mime_type"]
 
     submission = Submission(
         name=name,
