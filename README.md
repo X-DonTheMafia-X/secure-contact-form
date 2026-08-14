@@ -1,70 +1,28 @@
-## Secure Contact App
+# Secure Contact App
 
-A secured Flask web application designed for small business who want to collect online orders from their customer or a student who is willing to learn a real life full stack web development example.
+A security-focused Flask web application built for small businesses that want to collect online orders or inquiries from customers — and a great hands-on reference for anyone learning full-stack web development.
 
-This application collects customer inquires or orders, send them confirmation email and notify the admin, stores them in a database which can be accessed by an admin viewer in a protected administrative dashbord.
+The app collects customer inquiries or orders, sends confirmation emails, notifies the admin, and stores submissions in a database accessible through a protected administrative dashboard.
 
-This app is designed while keeping security in mind and applying real life defenses including authentication, authorization, CSRF protection, input validation, rate limiting, secure file handlings, password hashing, and audit logging.
+Security is a first-class concern throughout: authentication, authorization, CSRF protection, input validation, rate limiting, secure file handling, password hashing, and audit logging are all built in.
 
-## How to setup
+---
 
-Requirements:
-- install python 3
-- install VS code
-- install git bash
+## Table of Contents
 
-Before you go further make sure to use a virtual environment to prevent conflicts and download all the required files in requirements.txt file before proceeding.
+- [Features](#features)
+- [Technology Stack](#technology-stack)
+- [Project Structure](#project-structure)
+- [Setup](#setup)
+- [Testing on Your Phone](#testing-on-your-phone)
+- [Customizing Users](#customizing-users)
+- [Making It Your Own](#making-it-your-own)
 
-step 1: Open this folder in bash and activate your Virtual Environment (Windows: source .venv/Scripts/activate Linux: source .venv/bins/activate)
-
-step 2: Rename secure-contact-app/.env.example to .env
-
-step 3: Fill your own environment variable and save it, now open your bash in the root folder of this project and type:
-- flask migrate -m "Initial Migration"
-- flask db upgrade
-
-step 4: open bash and enter:
-                            python run.py to test the application
-                            login username and password for admin: admin and Ba911nana
-                            login username and password for jessica: Jessica and jessi123
-TO TEST IT ON YOUR PHONE:
-On bash, type:
-- flask run --host=0.0.0.0
-Open Command Promt and enter:
-- ipconfig
-Copy that ip address and go your phone browser and visit http //<your-ipaddress>:5000
-
-
-step 5: If you want to set you own admin and users:
-open bash, and type:
-- flask shell
-- from app.extensions import db
-- from app.models.user import User
-- User.query.delete()
-- db.session.commit()
-- exit() to exit the terminal
-
-step 6: Now you deleted the existing users, we need you set up a new users.
-open flash shell
-- from app.extensions import  db
-- from app.models.user import User
-
-- admin = User(username="admin", role="admin")
-- admin.set_password("your-password-here")
-- db.session.add(admin)
-- db.session.commit()
-
-Do the same for user = ... only the difference is you put role="user"
-
-step 7: Now, to make it your own shop website you need make some changes to it's appearings
-- go to app/services/email_service.py and replace YOUR BUSINESS NAME with yours
-- go to app/templates/base/base.html and make same changes
-- got to app/templates/pages/home.html, app/templates/components/footer.html and navbar.html, and make necessary changes as per your requirement
+---
 
 ## Features
 
 ### Customer Features
-
 - Contact/submission form
 - Server-side form validation
 - CSRF protection
@@ -74,7 +32,6 @@ step 7: Now, to make it your own shop website you need make some changes to it's
 - Secure handling of uploaded files
 
 ### Administrative Features
-
 - Protected administrator login
 - Password-hashed administrator credentials
 - Authenticated submission management
@@ -84,7 +41,6 @@ step 7: Now, to make it your own shop website you need make some changes to it's
 - Login protection and rate limiting
 
 ### Security Features
-
 - Password hashing
 - CSRF protection
 - Authentication with Flask-Login
@@ -106,21 +62,21 @@ step 7: Now, to make it your own shop website you need make some changes to it's
 
 ## Technology Stack
 
-| Technology | Purpose |
-|---|---|
-| Python | Application programming language |
-| Flask | Web framework |
-| Flask-SQLAlchemy | Database ORM |
-| Flask-Migrate | Database migrations |
-| Flask-Login | Authentication and session management |
-| Flask-WTF | Forms and CSRF protection |
-| Flask-Mail | Email delivery |
-| SQLite | Development database |
-| PostgreSQL | Production database |
-| Pytest | Automated testing |
-| HTML/CSS/JavaScript | Frontend |
-| Git/GitHub | Version control |
-| Render | Production deployment |
+| Technology            | Purpose                                |
+|------------------------|-----------------------------------------|
+| Python                 | Application programming language        |
+| Flask                  | Web framework                            |
+| Flask-SQLAlchemy       | Database ORM                             |
+| Flask-Migrate          | Database migrations                      |
+| Flask-Login            | Authentication and session management    |
+| Flask-WTF              | Forms and CSRF protection                |
+| Flask-Mail             | Email delivery                           |
+| SQLite                 | Development database                     |
+| PostgreSQL             | Production database                      |
+| Pytest                 | Automated testing                        |
+| HTML/CSS/JavaScript    | Frontend                                 |
+| Git/GitHub             | Version control                          |
+| Render                 | Production deployment                    |
 
 ---
 
@@ -170,8 +126,6 @@ secure-contact-app/
 │   └── __init__.py
 │
 ├── tests/
-│   ├── 
-│   ├── 
 │
 ├── migrations/
 ├── docs/
@@ -182,4 +136,139 @@ secure-contact-app/
 ├── requirements.txt
 ├── run.py
 └── README.md
+```
 
+---
+
+## Setup
+
+### Requirements
+- [Python 3](https://www.python.org/downloads/)
+- [VS Code](https://code.visualstudio.com/)
+- [Git Bash](https://git-scm.com/downloads)
+
+Before proceeding, create and activate a virtual environment to avoid dependency conflicts, then install everything listed in `requirements.txt`.
+
+### Step 1 — Set up your environment
+
+Open this folder in Bash and activate your virtual environment:
+
+```bash
+# Windows
+source .venv/Scripts/activate
+
+# Linux / macOS
+source .venv/bin/activate
+```
+
+Then install dependencies:
+
+```bash
+pip install -r requirements.txt
+```
+
+### Step 2 — Configure environment variables
+
+Rename `secure-contact-app/.env.example` to `.env`, then fill in your own values and save.
+
+### Step 3 — Run database migrations
+
+From the project root:
+
+```bash
+flask db migrate -m "Initial Migration"
+flask db upgrade
+```
+
+### Step 4 — Run the app
+
+```bash
+python run.py
+```
+
+Default login credentials for testing:
+
+| Role  | Username | Password  |
+|-------|----------|-----------|
+| Admin | `admin`  | `Ba911nana` |
+| User  | `Jessica`| `jessi123`  |
+
+> ⚠️ **Change these default credentials before deploying anywhere beyond your local machine.**
+
+---
+
+## Testing on Your Phone
+
+1. Start the app so it's reachable on your local network:
+
+   ```bash
+   flask run --host=0.0.0.0
+   ```
+
+2. Find your computer's local IP address:
+
+   ```bash
+   ipconfig
+   ```
+
+3. On your phone (connected to the same Wi-Fi network), open a browser and visit:
+
+   ```text
+   http://<your_ip_address>:5000
+   ```
+
+---
+
+## Customizing Users
+
+### Remove the existing sample users
+
+```bash
+flask shell
+```
+
+```python
+from app.extensions import db
+from app.models.user import User
+
+User.query.delete()
+db.session.commit()
+exit()
+```
+
+### Create your own users
+
+```bash
+flask shell
+```
+
+```python
+from app.extensions import db
+from app.models.user import User
+
+# Admin account
+admin = User(username="admin", role="admin")
+admin.set_password("your-password-here")
+db.session.add(admin)
+db.session.commit()
+
+# Regular user account (repeat as needed, with role="user")
+user = User(username="your-username", role="user")
+user.set_password("your-password-here")
+db.session.add(user)
+db.session.commit()
+```
+
+---
+
+## Making It Your Own
+
+To turn this into your own shop's website:
+
+1. **Business name** — update it in:
+   - `app/services/email_service.py`
+   - `app/templates/base/base.html`
+2. **Branding & content** — update as needed in:
+   - `app/templates/pages/home.html`
+   - `app/templates/components/footer.html`
+   - `app/templates/components/navbar.html`
