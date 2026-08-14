@@ -28,11 +28,11 @@ step 4: open bash and enter:
                             login username and password for admin: admin and Ba911nana
                             login username and password for jessica: Jessica and jessi123
 TO TEST IT ON YOUR PHONE:
-->> On bash, type:
+On bash, type:
 - flask run --host=0.0.0.0
--->> Open Command Promt and enter:
+Open Command Promt and enter:
 - ipconfig
-->> Copy that ip address and go your phone browser and visit http //<your-ipaddress>:5000
+Copy that ip address and go your phone browser and visit http //<your-ipaddress>:5000
 
 
 step 5: If you want to set you own admin and users:
